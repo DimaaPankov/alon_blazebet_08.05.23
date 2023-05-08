@@ -1,0 +1,3152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/blue"
+    android:id="@+id/CVbackground"
+    tools:context=".GameFragment">
+
+    <FrameLayout
+        android:id="@+id/frameDI"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:background="@color/gray"
+        app:layout_constraintStart_toStartOf="@+id/frameww"
+        app:layout_constraintTop_toTopOf="@+id/frameww"></FrameLayout>
+
+
+    <TextView
+        android:id="@+id/TVvin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="your win 0"
+        app:layout_constraintBottom_toTopOf="@+id/TVslot5DI"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <ImageView
+        android:id="@+id/imageView6DI"
+        android:layout_width="145dp"
+        android:layout_height="136dp"
+        android:src="@drawable/bomb"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameww" />
+
+
+    <FrameLayout
+        android:id="@+id/frameww"
+        android:layout_width="317dp"
+        android:layout_height="317dp"
+        android:background="@color/gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></FrameLayout>
+
+    <TextView
+        android:id="@+id/TVslot4DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot9DI"
+        app:layout_constraintTop_toTopOf="@+id/frameDI" />
+
+    <TextView
+        android:id="@+id/TVslot44DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot9DI"
+        app:layout_constraintTop_toTopOf="@+id/frameDI" />
+
+
+
+
+
+    <TextView
+        android:id="@+id/TVslot1DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDI"
+        app:layout_constraintTop_toTopOf="@+id/frameDI" />
+
+    <TextView
+        android:id="@+id/TVslot111DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDI"
+        app:layout_constraintTop_toTopOf="@+id/frameDI" />
+
+    <TextView
+        android:id="@+id/TVslot2DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot1DI"
+        app:layout_constraintTop_toTopOf="@+id/frameDI" />
+
+    <TextView
+        android:id="@+id/TVslot22DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot1DI"
+        app:layout_constraintTop_toTopOf="@+id/frameDI" />
+
+    <TextView
+        android:id="@+id/TVslot3DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot2DI"
+        app:layout_constraintTop_toTopOf="@+id/frameDI" />
+
+
+
+    <TextView
+        android:id="@+id/TVslot33DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot2DI"
+        app:layout_constraintTop_toTopOf="@+id/frameDI" />
+
+
+    <TextView
+        android:id="@+id/TVslot5DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot4DI"
+        app:layout_constraintTop_toTopOf="@+id/frameDI" />
+
+    <TextView
+        android:id="@+id/TVslot55DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0.0"
+        android:text="\?"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot4DI"
+        app:layout_constraintTop_toTopOf="@+id/frameDI" />
+
+
+    <TextView
+        android:id="@+id/TVslot7DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#F8F8F8"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDI"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot1DI" />
+
+    <TextView
+        android:id="@+id/TVslot77DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0.0"
+        android:text="\?"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDI"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot1DI"></TextView>
+
+
+    <TextView
+        android:id="@+id/TVslot8DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot7DI"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot4DI" />
+
+    <TextView
+        android:id="@+id/TVslot88DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot7DI"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot4DI" />
+
+    <TextView
+        android:id="@+id/TVslot9DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot8DI"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot5DI" />
+
+    <TextView
+        android:id="@+id/TVslot99DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0.0"
+        android:text="\?"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot8DI"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot5DI" />
+
+
+    <TextView
+        android:id="@+id/TVslot10DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/TVslot8DI"
+        app:layout_constraintStart_toEndOf="@+id/TVslot9DI" />
+
+    <TextView
+        android:id="@+id/TVslot1010DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot9DI"
+        app:layout_constraintTop_toTopOf="@+id/TVslot8DI" />
+
+
+    <TextView
+        android:id="@+id/TVslot11DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#F8F8F8"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot10DI"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot5DI" />
+
+    <TextView
+        android:id="@+id/TVslot1111DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0.0"
+        android:text="\?"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot10DI"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot5DI"></TextView>
+
+
+    <TextView
+        android:id="@+id/TVslot13DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDI"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot9DI" />
+
+    <TextView
+        android:id="@+id/TVslot1313DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDI"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot9DI" />
+
+    <TextView
+        android:id="@+id/TVslot14DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot13DI"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot10DI" />
+
+    <TextView
+        android:id="@+id/TVslot1414DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot13DI"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot10DI" />
+
+
+    <TextView
+        android:id="@+id/TVslot15DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#F8F8F8"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot14DI"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot11DI" />
+
+    <TextView
+        android:id="@+id/TVslot1515DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0.0"
+        android:text="\?"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot14DI"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot11DI"></TextView>
+
+
+    <TextView
+        android:id="@+id/TVslot16DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/TVslot15DI"
+        app:layout_constraintStart_toEndOf="@+id/TVslot15DI" />
+
+    <TextView
+        android:id="@+id/TVslot1616DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot15DI"
+        app:layout_constraintTop_toTopOf="@+id/TVslot15DI" />
+
+    <TextView
+        android:id="@+id/TVslot17DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot16DI"
+        app:layout_constraintTop_toTopOf="@+id/TVslot16DI" />
+
+    <TextView
+        android:id="@+id/TVslot1717DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot16DI"
+        app:layout_constraintTop_toTopOf="@+id/TVslot15DI" />
+
+    <TextView
+        android:id="@+id/TVslot19DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDI"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot13DI" />
+
+    <TextView
+        android:id="@+id/TVslot1919DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDI"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot13DI" />
+
+    <TextView
+        android:id="@+id/TVslot20DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot19DI"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot13DI" />
+
+    <TextView
+        android:id="@+id/TVslot2020DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot19DI"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot13DI" />
+
+    <TextView
+        android:id="@+id/TVslot21DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot20DI"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot13DI" />
+
+    <TextView
+        android:id="@+id/TVslot2121DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot20DI"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot13DI" />
+
+
+    <TextView
+        android:id="@+id/TVslot222DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot21DI"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot13DI" />
+
+    <TextView
+        android:id="@+id/TVslot2222DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot21DI"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot13DI" />
+
+    <TextView
+        android:id="@+id/TVslot23DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot222DI"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot13DI" />
+
+    <TextView
+        android:id="@+id/TVslot2323DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot222DI"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot13DI" />
+
+    <TextView
+        android:id="@+id/TVslot25DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDI"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot19DI" />
+
+    <TextView
+        android:id="@+id/TVslot2525DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDI"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot19DI" />
+
+    <TextView
+        android:id="@+id/TVslot26DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot25DI"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot19DI" />
+
+    <TextView
+        android:id="@+id/TVslot2626DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot25DI"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot19DI" />
+
+    <TextView
+        android:id="@+id/TVslot27DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot26DI"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot19DI" />
+
+    <TextView
+        android:id="@+id/TVslot2727DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot26DI"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot19DI" />
+
+    <TextView
+        android:id="@+id/TVslot28DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot27DI"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot19DI" />
+
+    <TextView
+        android:id="@+id/TVslot2828DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot27DI"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot19DI" />
+
+    <TextView
+        android:id="@+id/TVslot29DI"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot28DI"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot19DI" />
+
+    <TextView
+        android:id="@+id/TVslot25top"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot28DI"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot19DI" />
+
+
+    <FrameLayout
+        android:id="@+id/frameDIB"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:background="@color/gray"
+        app:layout_constraintEnd_toEndOf="@+id/frameww"
+        app:layout_constraintTop_toTopOf="@+id/frameww"></FrameLayout>
+
+    <TextView
+        android:id="@+id/TVslot4DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot9DIB"
+        app:layout_constraintTop_toTopOf="@+id/frameDIB" />
+
+    <TextView
+        android:id="@+id/TVslot44DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot9DIB"
+        app:layout_constraintTop_toTopOf="@+id/frameDIB" />
+
+    <TextView
+        android:id="@+id/TVslot1DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDIB"
+        app:layout_constraintTop_toTopOf="@+id/frameDIB" />
+
+    <TextView
+        android:id="@+id/TVslot111DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDIB"
+        app:layout_constraintTop_toTopOf="@+id/frameDIB" />
+
+    <TextView
+        android:id="@+id/TVslot2DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot1DIB"
+        app:layout_constraintTop_toTopOf="@+id/frameDIB" />
+
+    <TextView
+        android:id="@+id/TVslot22DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot1DIB"
+        app:layout_constraintTop_toTopOf="@+id/frameDIB" />
+
+    <TextView
+        android:id="@+id/TVslot3DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot2DIB"
+        app:layout_constraintTop_toTopOf="@+id/frameDIB" />
+
+
+
+    <TextView
+        android:id="@+id/TVslot33DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot2DIB"
+        app:layout_constraintTop_toTopOf="@+id/frameDIB" />
+
+
+    <TextView
+        android:id="@+id/TVslot5DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot4DIB"
+        app:layout_constraintTop_toTopOf="@+id/frameDIB" />
+
+    <TextView
+        android:id="@+id/TVslot55DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0.0"
+        android:text="\?"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot4DIB"
+        app:layout_constraintTop_toTopOf="@+id/frameDIB" />
+
+
+    <TextView
+        android:id="@+id/TVslot7DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#F8F8F8"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDIB"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot1DIB" />
+
+    <TextView
+        android:id="@+id/TVslot77DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0.0"
+        android:text="\?"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDIB"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot1DIB"></TextView>
+
+
+    <TextView
+        android:id="@+id/TVslot8DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot7DIB"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot4DIB" />
+
+    <TextView
+        android:id="@+id/TVslot88DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot7DIB"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot4DIB" />
+
+    <TextView
+        android:id="@+id/TVslot9DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot8DIB"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot5DIB" />
+
+    <TextView
+        android:id="@+id/TVslot99DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0.0"
+        android:text="\?"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot8DIB"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot5DIB" />
+
+
+    <TextView
+        android:id="@+id/TVslot10DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/TVslot8DIB"
+        app:layout_constraintStart_toEndOf="@+id/TVslot9DIB" />
+
+    <TextView
+        android:id="@+id/TVslot1010DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot9DIB"
+        app:layout_constraintTop_toTopOf="@+id/TVslot8DIB" />
+
+
+    <TextView
+        android:id="@+id/TVslot11DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#F8F8F8"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot10DIB"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot5DIB" />
+
+    <TextView
+        android:id="@+id/TVslot1111DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0.0"
+        android:text="\?"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot10DIB"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot5DIB"></TextView>
+
+
+    <TextView
+        android:id="@+id/TVslot13DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDIB"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot9DIB" />
+
+    <TextView
+        android:id="@+id/TVslot1313DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDIB"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot9DIB" />
+
+    <TextView
+        android:id="@+id/TVslot14DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot13DIB"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot10DIB" />
+
+    <TextView
+        android:id="@+id/TVslot1414DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot13DIB"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot10DIB" />
+
+
+    <TextView
+        android:id="@+id/TVslot15DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#F8F8F8"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot14DIB"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot11DIB" />
+
+    <TextView
+        android:id="@+id/TVslot1515DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0.0"
+        android:text="\?"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot14DIB"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot11DIB"></TextView>
+
+
+    <TextView
+        android:id="@+id/TVslot16DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/TVslot15DIB"
+        app:layout_constraintStart_toEndOf="@+id/TVslot15DIB" />
+
+    <TextView
+        android:id="@+id/TVslot1616DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot15DIB"
+        app:layout_constraintTop_toTopOf="@+id/TVslot15DIB" />
+
+    <TextView
+        android:id="@+id/TVslot17DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot16DIB"
+        app:layout_constraintTop_toTopOf="@+id/TVslot16DIB" />
+
+    <TextView
+        android:id="@+id/TVslot1717DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot16DIB"
+        app:layout_constraintTop_toTopOf="@+id/TVslot15DIB" />
+
+    <TextView
+        android:id="@+id/TVslot19DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDIB"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIB" />
+
+    <TextView
+        android:id="@+id/TVslot1919DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDIB"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIB" />
+
+    <TextView
+        android:id="@+id/TVslot20DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot19DIB"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIB" />
+
+    <TextView
+        android:id="@+id/TVslot2020DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot19DIB"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIB" />
+
+    <TextView
+        android:id="@+id/TVslot21DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot20DIB"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIB" />
+
+    <TextView
+        android:id="@+id/TVslot2121DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot20DIB"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIB" />
+
+
+    <TextView
+        android:id="@+id/TVslot222DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot21DIB"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIB" />
+
+    <TextView
+        android:id="@+id/TVslot2222DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot21DIB"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIB" />
+
+    <TextView
+        android:id="@+id/TVslot23DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot222DIB"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIB" />
+
+    <TextView
+        android:id="@+id/TVslot2323DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot222DIB"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIB" />
+
+    <TextView
+        android:id="@+id/TVslot25DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDIB"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIB" />
+
+    <TextView
+        android:id="@+id/TVslot2525DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDIB"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIB" />
+
+    <TextView
+        android:id="@+id/TVslot26DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot25DIB"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIB" />
+
+    <TextView
+        android:id="@+id/TVslot2626DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot25DIB"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIB" />
+
+    <TextView
+        android:id="@+id/TVslot27DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot26DIB"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIB" />
+
+    <TextView
+        android:id="@+id/TVslot2727DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot26DIB"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIB" />
+
+    <TextView
+        android:id="@+id/TVslot28DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot27DIB"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIB" />
+
+    <TextView
+        android:id="@+id/TVslot2828DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot27DIB"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIB" />
+
+    <TextView
+        android:id="@+id/TVslot29DIB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot28DIB"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIB" />
+
+    <TextView
+        android:id="@+id/TVslot25topB"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot28DIB"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIB" />
+
+
+    <FrameLayout
+        android:id="@+id/frameDIM"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:background="@color/gray"
+        app:layout_constraintBottom_toBottomOf="@+id/frameww"
+        app:layout_constraintStart_toStartOf="@+id/frameww"></FrameLayout>
+
+    <TextView
+        android:id="@+id/TVslot4DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot9DIM"
+        app:layout_constraintTop_toTopOf="@+id/frameDIM" />
+
+    <TextView
+        android:id="@+id/TVslot44DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot9DIM"
+        app:layout_constraintTop_toTopOf="@+id/frameDIM" />
+
+
+    <TextView
+        android:id="@+id/TVslot1DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDIM"
+        app:layout_constraintTop_toTopOf="@+id/frameDIM" />
+
+    <TextView
+        android:id="@+id/TVslot111DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDIM"
+        app:layout_constraintTop_toTopOf="@+id/frameDIM" />
+
+    <TextView
+        android:id="@+id/TVslot2DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot1DIM"
+        app:layout_constraintTop_toTopOf="@+id/frameDIM" />
+
+    <TextView
+        android:id="@+id/TVslot22DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot1DIM"
+        app:layout_constraintTop_toTopOf="@+id/frameDIM" />
+
+    <TextView
+        android:id="@+id/TVslot3DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot2DIM"
+        app:layout_constraintTop_toTopOf="@+id/frameDIM" />
+
+
+
+    <TextView
+        android:id="@+id/TVslot33DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot2DIM"
+        app:layout_constraintTop_toTopOf="@+id/frameDIM" />
+
+
+    <TextView
+        android:id="@+id/TVslot5DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot4DIM"
+        app:layout_constraintTop_toTopOf="@+id/frameDIM" />
+
+    <TextView
+        android:id="@+id/TVslot55DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0.0"
+        android:text="\?"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot4DIM"
+        app:layout_constraintTop_toTopOf="@+id/frameDIM" />
+
+
+    <TextView
+        android:id="@+id/TVslot7DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#F8F8F8"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDIM"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot1DIM" />
+
+    <TextView
+        android:id="@+id/TVslot77DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0.0"
+        android:text="\?"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDIM"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot1DIM"></TextView>
+
+
+    <TextView
+        android:id="@+id/TVslot8DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot7DIM"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot4DIM" />
+
+    <TextView
+        android:id="@+id/TVslot88DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot7DIM"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot4DIM" />
+
+    <TextView
+        android:id="@+id/TVslot9DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot8DIM"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot5DIM" />
+
+    <TextView
+        android:id="@+id/TVslot99DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0.0"
+        android:text="\?"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot8DIM"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot5DIM" />
+
+
+    <TextView
+        android:id="@+id/TVslot10DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/TVslot8DIM"
+        app:layout_constraintStart_toEndOf="@+id/TVslot9DIM" />
+
+    <TextView
+        android:id="@+id/TVslot1010DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot9DIM"
+        app:layout_constraintTop_toTopOf="@+id/TVslot8DIM" />
+
+
+    <TextView
+        android:id="@+id/TVslot11DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#F8F8F8"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot10DIM"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot5DIM" />
+
+    <TextView
+        android:id="@+id/TVslot1111DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0.0"
+        android:text="\?"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot10DIM"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot5DIM"></TextView>
+
+
+    <TextView
+        android:id="@+id/TVslot13DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDIM"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot9DIM" />
+
+    <TextView
+        android:id="@+id/TVslot1313DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDIM"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot9DIM" />
+
+    <TextView
+        android:id="@+id/TVslot14DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot13DIM"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot10DIM" />
+
+    <TextView
+        android:id="@+id/TVslot1414DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot13DIM"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot10DIM" />
+
+
+    <TextView
+        android:id="@+id/TVslot15DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#F8F8F8"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot14DIM"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot11DIM" />
+
+    <TextView
+        android:id="@+id/TVslot1515DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0.0"
+        android:text="\?"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot14DIM"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot11DIM"></TextView>
+
+
+    <TextView
+        android:id="@+id/TVslot16DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/TVslot15DIM"
+        app:layout_constraintStart_toEndOf="@+id/TVslot15DIM" />
+
+    <TextView
+        android:id="@+id/TVslot1616DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot15DIM"
+        app:layout_constraintTop_toTopOf="@+id/TVslot15DIM" />
+
+    <TextView
+        android:id="@+id/TVslot17DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot16DIM"
+        app:layout_constraintTop_toTopOf="@+id/TVslot16DIM" />
+
+    <TextView
+        android:id="@+id/TVslot1717DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot16DIM"
+        app:layout_constraintTop_toTopOf="@+id/TVslot15DIM" />
+
+    <TextView
+        android:id="@+id/TVslot19DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDIM"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIM" />
+
+    <TextView
+        android:id="@+id/TVslot1919DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDIM"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIM" />
+
+    <TextView
+        android:id="@+id/TVslot20DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot19DIM"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIM" />
+
+    <TextView
+        android:id="@+id/TVslot2020DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot19DIM"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIM" />
+
+    <TextView
+        android:id="@+id/TVslot21DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot20DIM"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIM" />
+
+    <TextView
+        android:id="@+id/TVslot2121DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot20DIM"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIM" />
+
+
+    <TextView
+        android:id="@+id/TVslot222DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot21DIM"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIM" />
+
+    <TextView
+        android:id="@+id/TVslot2222DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot21DIM"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIM" />
+
+    <TextView
+        android:id="@+id/TVslot23DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot222DIM"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIM" />
+
+    <TextView
+        android:id="@+id/TVslot2323DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot222DIM"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIM" />
+
+    <TextView
+        android:id="@+id/TVslot25DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDIM"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIM" />
+
+    <TextView
+        android:id="@+id/TVslot2525DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDIM"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIM" />
+
+    <TextView
+        android:id="@+id/TVslot26DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot25DIM"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIM" />
+
+    <TextView
+        android:id="@+id/TVslot2626DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot25DIM"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIM" />
+
+    <TextView
+        android:id="@+id/TVslot27DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot26DIM"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIM" />
+
+    <TextView
+        android:id="@+id/TVslot2727DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot26DIM"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIM" />
+
+    <TextView
+        android:id="@+id/TVslot28DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot27DIM"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIM" />
+
+    <TextView
+        android:id="@+id/TVslot2828DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot27DIM"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIM" />
+
+    <TextView
+        android:id="@+id/TVslot29DIM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot28DIM"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIM" />
+
+    <TextView
+        android:id="@+id/TVslot25topM"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot28DIM"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIM" />
+
+
+    <FrameLayout
+        android:id="@+id/frameDIE"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:background="@color/gray"
+        app:layout_constraintBottom_toBottomOf="@+id/frameww"
+        app:layout_constraintEnd_toEndOf="@+id/frameww"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot27DI"></FrameLayout>
+
+
+
+
+
+    <TextView
+        android:id="@+id/TVslot4DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot9DIE"
+        app:layout_constraintTop_toTopOf="@+id/frameDIE" />
+
+    <TextView
+        android:id="@+id/TVslot44DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot9DIE"
+        app:layout_constraintTop_toTopOf="@+id/frameDIE" />
+
+
+
+
+
+    <TextView
+        android:id="@+id/TVslot1DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDIE"
+        app:layout_constraintTop_toTopOf="@+id/frameDIE" />
+
+    <TextView
+        android:id="@+id/TVslot111DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDIE"
+        app:layout_constraintTop_toTopOf="@+id/frameDIE" />
+
+    <TextView
+        android:id="@+id/TVslot2DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot1DIE"
+        app:layout_constraintTop_toTopOf="@+id/frameDIE" />
+
+    <TextView
+        android:id="@+id/TVslot22DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot1DIE"
+        app:layout_constraintTop_toTopOf="@+id/frameDIE" />
+
+    <TextView
+        android:id="@+id/TVslot3DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot2DIE"
+        app:layout_constraintTop_toTopOf="@+id/frameDIE" />
+
+
+
+    <TextView
+        android:id="@+id/TVslot33DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot2DIE"
+        app:layout_constraintTop_toTopOf="@+id/frameDIE" />
+
+
+    <TextView
+        android:id="@+id/TVslot5DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot4DIE"
+        app:layout_constraintTop_toTopOf="@+id/frameDIE" />
+
+    <TextView
+        android:id="@+id/TVslot55DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0.0"
+        android:text="\?"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot4DIE"
+        app:layout_constraintTop_toTopOf="@+id/frameDIE" />
+
+
+    <TextView
+        android:id="@+id/TVslot7DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#F8F8F8"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDIE"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot1DIE" />
+
+    <TextView
+        android:id="@+id/TVslot77DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0.0"
+        android:text="\?"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDIE"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot1DIE"></TextView>
+
+
+    <TextView
+        android:id="@+id/TVslot8DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot7DIE"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot4DIE" />
+
+    <TextView
+        android:id="@+id/TVslot88DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot7DIE"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot4DIE" />
+
+    <TextView
+        android:id="@+id/TVslot9DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot8DIE"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot5DIE" />
+
+    <TextView
+        android:id="@+id/TVslot99DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0.0"
+        android:text="\?"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot8DIE"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot5DIE" />
+
+
+    <TextView
+        android:id="@+id/TVslot10DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/TVslot8DIE"
+        app:layout_constraintStart_toEndOf="@+id/TVslot9DIE" />
+
+    <TextView
+        android:id="@+id/TVslot1010DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot9DIE"
+        app:layout_constraintTop_toTopOf="@+id/TVslot8DIE" />
+
+
+    <TextView
+        android:id="@+id/TVslot11DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#F8F8F8"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot10DIE"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot5DIE" />
+
+    <TextView
+        android:id="@+id/TVslot1111DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0.0"
+        android:text="\?"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot10DIE"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot5DIE"></TextView>
+
+
+    <TextView
+        android:id="@+id/TVslot13DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDIE"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot9DIE" />
+
+    <TextView
+        android:id="@+id/TVslot1313DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDIE"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot9DIE" />
+
+    <TextView
+        android:id="@+id/TVslot14DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot13DIE"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot10DIE" />
+
+    <TextView
+        android:id="@+id/TVslot1414DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot13DIE"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot10DIE" />
+
+
+    <TextView
+        android:id="@+id/TVslot15DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#F8F8F8"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot14DIE"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot11DIE" />
+
+    <TextView
+        android:id="@+id/TVslot1515DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0.0"
+        android:text="\?"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot14DIE"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot11DIE"></TextView>
+
+
+    <TextView
+        android:id="@+id/TVslot16DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/TVslot15DIE"
+        app:layout_constraintStart_toEndOf="@+id/TVslot15DIE" />
+
+    <TextView
+        android:id="@+id/TVslot1616DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot15DIE"
+        app:layout_constraintTop_toTopOf="@+id/TVslot15DIE" />
+
+    <TextView
+        android:id="@+id/TVslot17DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot16DIE"
+        app:layout_constraintTop_toTopOf="@+id/TVslot16DIE" />
+
+    <TextView
+        android:id="@+id/TVslot1717DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot16DIE"
+        app:layout_constraintTop_toTopOf="@+id/TVslot15DIE" />
+
+    <TextView
+        android:id="@+id/TVslot19DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDIE"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIE" />
+
+    <TextView
+        android:id="@+id/TVslot1919DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDIE"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIE" />
+
+    <TextView
+        android:id="@+id/TVslot20DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot19DIE"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIE" />
+
+    <TextView
+        android:id="@+id/TVslot2020DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot19DIE"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIE" />
+
+    <TextView
+        android:id="@+id/TVslot21DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot20DIE"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIE" />
+
+    <TextView
+        android:id="@+id/TVslot2121DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot20DIE"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIE" />
+
+
+    <TextView
+        android:id="@+id/TVslot222DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot21DIE"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIE" />
+
+    <TextView
+        android:id="@+id/TVslot2222DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot21DIE"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIE" />
+
+    <TextView
+        android:id="@+id/TVslot23DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot222DIE"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIE" />
+
+    <TextView
+        android:id="@+id/TVslot2323DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot222DIE"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIE" />
+
+    <TextView
+        android:id="@+id/TVslot25DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDIE"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIE" />
+
+    <TextView
+        android:id="@+id/TVslot2525DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDIE"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIE" />
+
+    <TextView
+        android:id="@+id/TVslot26DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot25DIE"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIE" />
+
+    <TextView
+        android:id="@+id/TVslot2626DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot25DIE"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIE" />
+
+    <TextView
+        android:id="@+id/TVslot27DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot26DIE"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIE" />
+
+    <TextView
+        android:id="@+id/TVslot2727DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot26DIE"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIE" />
+
+    <TextView
+        android:id="@+id/TVslot28DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot27DIE"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIE" />
+
+    <TextView
+        android:id="@+id/TVslot2828DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot27DIE"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIE" />
+
+    <TextView
+        android:id="@+id/TVslot29DIE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot28DIE"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIE" />
+
+    <TextView
+        android:id="@+id/TVslot25topE"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/TVslot28DIE"
+        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIE" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/CVwin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blue"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/Breplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="110dp"
+            android:backgroundTint="#d62828"
+            android:text="menu"
+            android:textColor="#2b2d42"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageViewzI"
+            android:layout_width="188dp"
+            android:layout_height="209dp"
+            android:src="@drawable/bomb"
+            app:layout_constraintBottom_toTopOf="@+id/Breplay"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/TVwin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="your win"
+            android:textColor="#d62828"
+            android:textSize="45sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/Breplay"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewzI" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
