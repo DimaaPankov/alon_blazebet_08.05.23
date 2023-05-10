@@ -5,9 +5,9 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="#2b2d42"
-    android:id="@+id/CVbackground"
+    android:id="@+id/sldkjdskljsdkljsd"
 
-    tools:context=".MenuFragment">
+    tools:context=".jfdkjfhkdfjh">
 
     <Button
         android:id="@+id/Bshop"

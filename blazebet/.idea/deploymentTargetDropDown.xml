@@ -7,11 +7,11 @@
         <deviceKey>
           <Key>
             <type value="VIRTUAL_DEVICE_PATH" />
-            <value value="C:\Users\beldo\.android\avd\Pixel_6_Pro_API_30.avd" />
+            <value value="C:\Users\beldo\.android\avd\Nexus_6_API_30.avd" />
           </Key>
         </deviceKey>
       </Target>
     </targetSelectedWithDropDown>
-    <timeTargetWasSelectedWithDropDown value="2023-05-06T06:49:02.517869700Z" />
+    <timeTargetWasSelectedWithDropDown value="2023-05-09T06:47:06.113404100Z" />
   </component>
 </project>

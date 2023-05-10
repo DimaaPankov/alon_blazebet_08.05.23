@@ -6,54 +6,54 @@
     app:startDestination="@id/sskldjcklds">
 
     <fragment
-        android:id="@+id/menuFragment"
-        android:name="com.blaze.aposta.blazebet.MenuFragment"
-        android:label="fragment_menu"
-        tools:layout="@layout/fragment_menu" >
+        android:id="@+id/jfdkjfhkdfjh"
+        android:name="com.blaze.aposta.blazebet.jfdkjfhkdfjh"
+        android:label="jfdkjfhkdfjh"
+        tools:layout="@layout/jfdkjfhkdfjh" >
         <action
-            android:id="@+id/action_menuFragment_to_gameFragment"
-            app:destination="@id/gameFragment" />
+            android:id="@+id/fjfsjdcjsdjksjjcsdjdsj"
+            app:destination="@id/dsjhdcjkshdcjksdh" />
         <action
-            android:id="@+id/action_menuFragment_to_infoFragment"
-            app:destination="@id/infoFragment" />
+            android:id="@+id/jkdsdjksjdhjdhjhdksj"
+            app:destination="@id/dshdskjhdsdhs" />
         <action
-            android:id="@+id/action_menuFragment_to_shopFragment"
-            app:destination="@id/shopFragment" />
+            android:id="@+id/sjkdjsdjksdjsdjkdsjk"
+            app:destination="@id/jsdjsdsdjjksd" />
     </fragment>
     <fragment
-        android:id="@+id/gameFragment"
-        android:name="com.blaze.aposta.blazebet.GameFragment"
-        android:label="fragment_game"
-        tools:layout="@layout/fragment_game" >
+        android:id="@+id/dsjhdcjkshdcjksdh"
+        android:name="com.blaze.aposta.blazebet.dsjhdcjkshdcjksdh"
+        android:label="dsjhdcjkshdcjksdh"
+        tools:layout="@layout/dsjhdcjkshdcjksdh" >
         <action
-            android:id="@+id/action_gameFragment_to_menuFragment"
-            app:destination="@id/menuFragment" />
+            android:id="@+id/sdkjhsdjhkjhdkjshfkjssdlkdksj"
+            app:destination="@id/jfdkjfhkdfjh" />
     </fragment>
     <fragment
-        android:id="@+id/infoFragment"
-        android:name="com.blaze.aposta.blazebet.InfoFragment"
-        android:label="fragment_info"
-        tools:layout="@layout/fragment_info" >
+        android:id="@+id/dshdskjhdsdhs"
+        android:name="com.blaze.aposta.blazebet.dshdskjhdsdhs"
+        android:label="dshdskjhdsdhs"
+        tools:layout="@layout/dshdskjhdsdhs" >
         <action
-            android:id="@+id/action_infoFragment_to_menuFragment"
-            app:destination="@id/menuFragment" />
+            android:id="@+id/hdhjjjsiiuihgf"
+            app:destination="@id/jfdkjfhkdfjh" />
     </fragment>
     <fragment
-        android:id="@+id/shopFragment"
-        android:name="com.blaze.aposta.blazebet.ShopFragment"
-        android:label="fragment_shop"
-        tools:layout="@layout/fragment_shop" >
+        android:id="@+id/jsdjsdsdjjksd"
+        android:name="com.blaze.aposta.blazebet.jsdjsdsdjjksd"
+        android:label="jsdjsdsdjjksd"
+        tools:layout="@layout/jsdjsdsdjjksd" >
         <action
-            android:id="@+id/action_shopFragment_to_menuFragment"
-            app:destination="@id/menuFragment" />
+            android:id="@+id/jdkskjdnsdkjdsn"
+            app:destination="@id/jfdkjfhkdfjh" />
     </fragment>
     <fragment
         android:id="@+id/sskldjcklds"
         android:name="com.blaze.aposta.blazebet.sskldjcklds"
-        tools:layout="@layout/ksldcklsdjckldsjck"
+        tools:layout="@layout/sskldjcklds"
         android:label="sskldjcklds" >
         <action
-            android:id="@+id/action_sskldjcklds_to_menuFragment"
-            app:destination="@id/menuFragment" />
+            android:id="@+id/dkskdjshdsio"
+            app:destination="@id/jfdkjfhkdfjh" />
     </fragment>
 </navigation>

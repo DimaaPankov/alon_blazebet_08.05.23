@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#2b2d42"
-    android:id="@+id/CVbackground"
-    tools:context=".ShopFragment">
+    android:id="@+id/sldkjdskljsdkljsd"
+    tools:context=".jsdjsdsdjjksd">
 
   <TextView
       android:id="@+id/textView2a2"
@@ -38,13 +38,13 @@
       android:text="select color:"
       android:textSize="25sp"
       android:textStyle="bold"
-      app:layout_constraintBottom_toTopOf="@+id/FL1"
-      app:layout_constraintEnd_toStartOf="@+id/FL1"
+      app:layout_constraintBottom_toTopOf="@+id/skdjhdsk"
+      app:layout_constraintEnd_toStartOf="@+id/skdjhdsk"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/textView2"></TextView>
 
   <FrameLayout
-      android:id="@+id/FL2q"
+      android:id="@+id/dsndskjnds"
       android:layout_width="70dp"
       android:layout_height="70dp"
       android:background="#d62828"
@@ -56,30 +56,30 @@
 
 
   <FrameLayout
-      android:id="@+id/FL1q"
+      android:id="@+id/dsnjdsknjs"
       android:layout_width="70dp"
       android:layout_height="70dp"
       android:visibility="invisible"
       android:background="#d62828"
-      app:layout_constraintBottom_toBottomOf="@+id/FL1"
+      app:layout_constraintBottom_toBottomOf="@+id/skdjhdsk"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="@+id/FL1"></FrameLayout>
+      app:layout_constraintTop_toTopOf="@+id/skdjhdsk"></FrameLayout>
 
   <FrameLayout
-      android:id="@+id/FL3q"
+      android:id="@+id/dsbdsjkdsn"
       android:layout_width="70dp"
       android:layout_height="70dp"
       android:background="#d62828"
       android:visibility="invisible"
-      app:layout_constraintBottom_toBottomOf="@+id/FL3"
+      app:layout_constraintBottom_toBottomOf="@+id/kjdhfdsjl"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="@+id/FL3"></FrameLayout>
+      app:layout_constraintTop_toTopOf="@+id/kjdhfdsjl"></FrameLayout>
 
 
   <FrameLayout
-      android:id="@+id/FL2"
+      android:id="@+id/sdknkdsjn"
       android:layout_width="60dp"
       android:layout_height="60dp"
       android:background="#f5cac3"
@@ -90,29 +90,29 @@
 
 
   <FrameLayout
-      android:id="@+id/FL1"
+      android:id="@+id/skdjhdsk"
       android:layout_width="60dp"
       android:layout_height="60dp"
       android:layout_marginBottom="50dp"
       android:background="#84a59d"
-      app:layout_constraintBottom_toTopOf="@+id/FL2"
+      app:layout_constraintBottom_toTopOf="@+id/sdknkdsjn"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"></FrameLayout>
 
   <FrameLayout
-      android:id="@+id/FL3"
+      android:id="@+id/kjdhfdsjl"
       android:layout_width="60dp"
       android:layout_height="60dp"
       android:layout_marginTop="50dp"
       android:background="#000000"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/FL2"></FrameLayout>
+      app:layout_constraintTop_toBottomOf="@+id/sdknkdsjn"></FrameLayout>
 
 
 
   <Button
-      android:id="@+id/Bback"
+      android:id="@+id/jsdsdkjsd"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_marginBottom="50dp"
@@ -125,10 +125,10 @@
       app:layout_constraintStart_toStartOf="parent"></Button>
 
   <TextView
-      android:id="@+id/TVnotprice"
+      android:id="@+id/dsbjsdbjds"
       android:layout_width="match_parent"
       android:layout_height="100dp"
-      android:background="@color/black"
+      android:background="@color/dshjksdhkjsd"
       android:gravity="center"
       android:text="insufficient funds"
       android:textColor="@color/red"

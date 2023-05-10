@@ -5,8 +5,8 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/blue"
-    android:id="@+id/CVbackground"
-    tools:context=".GameFragment">
+    android:id="@+id/sldkjdskljsdkljsd"
+    tools:context=".dsjhdcjkshdcjksdh">
 
     <FrameLayout
         android:id="@+id/frameDI"
@@ -18,13 +18,13 @@
 
 
     <TextView
-        android:id="@+id/TVvin"
+        android:id="@+id/kdslds"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="30sp"
         android:textStyle="bold"
         android:text="your win 0"
-        app:layout_constraintBottom_toTopOf="@+id/TVslot5DI"
+        app:layout_constraintBottom_toTopOf="@+id/sdkjdss"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"></TextView>
@@ -62,11 +62,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot9DI"
+        app:layout_constraintStart_toEndOf="@+id/dsllksdjdskl"
         app:layout_constraintTop_toTopOf="@+id/frameDI" />
 
     <TextView
-        android:id="@+id/TVslot44DI"
+        android:id="@+id/ksljkldjskljds"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -77,7 +77,7 @@
         android:text="\?"
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot9DI"
+        app:layout_constraintStart_toEndOf="@+id/dsllksdjdskl"
         app:layout_constraintTop_toTopOf="@+id/frameDI" />
 
 
@@ -100,7 +100,7 @@
         app:layout_constraintTop_toTopOf="@+id/frameDI" />
 
     <TextView
-        android:id="@+id/TVslot111DI"
+        android:id="@+id/ksldjksldjsd"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -130,7 +130,7 @@
         app:layout_constraintTop_toTopOf="@+id/frameDI" />
 
     <TextView
-        android:id="@+id/TVslot22DI"
+        android:id="@+id/sjdlksdjkld"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -161,7 +161,7 @@
 
 
     <TextView
-        android:id="@+id/TVslot33DI"
+        android:id="@+id/ksdjlkjsdklsdj"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -177,7 +177,7 @@
 
 
     <TextView
-        android:id="@+id/TVslot5DI"
+        android:id="@+id/sdkjdss"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -192,7 +192,7 @@
         app:layout_constraintTop_toTopOf="@+id/frameDI" />
 
     <TextView
-        android:id="@+id/TVslot55DI"
+        android:id="@+id/sldjlksdjskdlj"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -208,7 +208,7 @@
 
 
     <TextView
-        android:id="@+id/TVslot7DI"
+        android:id="@+id/mdsnkdsjnsd"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -222,7 +222,7 @@
         app:layout_constraintTop_toBottomOf="@+id/TVslot1DI" />
 
     <TextView
-        android:id="@+id/TVslot77DI"
+        android:id="@+id/dslkjskdljdskl"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -238,7 +238,7 @@
 
 
     <TextView
-        android:id="@+id/TVslot8DI"
+        android:id="@+id/jdskskdj"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -249,11 +249,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot7DI"
+        app:layout_constraintStart_toEndOf="@+id/mdsnkdsjnsd"
         app:layout_constraintTop_toBottomOf="@+id/TVslot4DI" />
 
     <TextView
-        android:id="@+id/TVslot88DI"
+        android:id="@+id/sdjklsdjskljsdk"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -264,11 +264,11 @@
         android:text="\?"
         android:textColor="#FDFDFD"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot7DI"
+        app:layout_constraintStart_toEndOf="@+id/mdsnkdsjnsd"
         app:layout_constraintTop_toBottomOf="@+id/TVslot4DI" />
 
     <TextView
-        android:id="@+id/TVslot9DI"
+        android:id="@+id/dsllksdjdskl"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -279,11 +279,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot8DI"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot5DI" />
+        app:layout_constraintStart_toEndOf="@+id/jdskskdj"
+        app:layout_constraintTop_toBottomOf="@+id/sdkjdss" />
 
     <TextView
-        android:id="@+id/TVslot99DI"
+        android:id="@+id/lsjksdljdklsdk"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -294,12 +294,12 @@
         android:text="\?"
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot8DI"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot5DI" />
+        app:layout_constraintStart_toEndOf="@+id/jdskskdj"
+        app:layout_constraintTop_toBottomOf="@+id/sdkjdss" />
 
 
     <TextView
-        android:id="@+id/TVslot10DI"
+        android:id="@+id/ndskksdjhsd"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -309,11 +309,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="@+id/TVslot8DI"
-        app:layout_constraintStart_toEndOf="@+id/TVslot9DI" />
+        app:layout_constraintBottom_toBottomOf="@+id/jdskskdj"
+        app:layout_constraintStart_toEndOf="@+id/dsllksdjdskl" />
 
     <TextView
-        android:id="@+id/TVslot1010DI"
+        android:id="@+id/ksdjklsdjklsdj"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -323,12 +323,12 @@
         android:text="\?"
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot9DI"
-        app:layout_constraintTop_toTopOf="@+id/TVslot8DI" />
+        app:layout_constraintStart_toEndOf="@+id/dsllksdjdskl"
+        app:layout_constraintTop_toTopOf="@+id/jdskskdj" />
 
 
     <TextView
-        android:id="@+id/TVslot11DI"
+        android:id="@+id/jdkshdsjkdsh"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -338,11 +338,11 @@
         android:text=""
         android:textColor="#F8F8F8"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot10DI"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot5DI" />
+        app:layout_constraintStart_toEndOf="@+id/ndskksdjhsd"
+        app:layout_constraintTop_toBottomOf="@+id/sdkjdss" />
 
     <TextView
-        android:id="@+id/TVslot1111DI"
+        android:id="@+id/sdkljdskljdskl"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -353,12 +353,12 @@
         android:text="\?"
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot10DI"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot5DI"></TextView>
+        app:layout_constraintStart_toEndOf="@+id/ndskksdjhsd"
+        app:layout_constraintTop_toBottomOf="@+id/sdkjdss"></TextView>
 
 
     <TextView
-        android:id="@+id/TVslot13DI"
+        android:id="@+id/kjdsdskjhds"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -370,10 +370,10 @@
         android:textColor="#FFFFFF"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="@+id/frameDI"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot9DI" />
+        app:layout_constraintTop_toBottomOf="@+id/dsllksdjdskl" />
 
     <TextView
-        android:id="@+id/TVslot1313DI"
+        android:id="@+id/dslkksdhjksdh"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -385,10 +385,10 @@
         android:textColor="#FFFFFF"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="@+id/frameDI"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot9DI" />
+        app:layout_constraintTop_toBottomOf="@+id/dsllksdjdskl" />
 
     <TextView
-        android:id="@+id/TVslot14DI"
+        android:id="@+id/ldsjdlskjds"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -399,11 +399,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot13DI"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot10DI" />
+        app:layout_constraintStart_toEndOf="@+id/kjdsdskjhds"
+        app:layout_constraintTop_toBottomOf="@+id/ndskksdjhsd" />
 
     <TextView
-        android:id="@+id/TVslot1414DI"
+        android:id="@+id/sldjkldjfkldjsf"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -414,12 +414,12 @@
         android:text="\?"
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot13DI"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot10DI" />
+        app:layout_constraintStart_toEndOf="@+id/kjdsdskjhds"
+        app:layout_constraintTop_toBottomOf="@+id/ndskksdjhsd" />
 
 
     <TextView
-        android:id="@+id/TVslot15DI"
+        android:id="@+id/kldsjlkdsjdskl"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -429,11 +429,11 @@
         android:text=""
         android:textColor="#F8F8F8"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot14DI"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot11DI" />
+        app:layout_constraintStart_toEndOf="@+id/ldsjdlskjds"
+        app:layout_constraintTop_toBottomOf="@+id/jdkshdsjkdsh" />
 
     <TextView
-        android:id="@+id/TVslot1515DI"
+        android:id="@+id/lsdjlksdjksdl"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -444,12 +444,12 @@
         android:text="\?"
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot14DI"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot11DI"></TextView>
+        app:layout_constraintStart_toEndOf="@+id/ldsjdlskjds"
+        app:layout_constraintTop_toBottomOf="@+id/jdkshdsjkdsh"></TextView>
 
 
     <TextView
-        android:id="@+id/TVslot16DI"
+        android:id="@+id/ksdjkjdshds"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -459,11 +459,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="@+id/TVslot15DI"
-        app:layout_constraintStart_toEndOf="@+id/TVslot15DI" />
+        app:layout_constraintBottom_toBottomOf="@+id/kldsjlkdsjdskl"
+        app:layout_constraintStart_toEndOf="@+id/kldsjlkdsjdskl" />
 
     <TextView
-        android:id="@+id/TVslot1616DI"
+        android:id="@+id/lsdkjdslkjds"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -473,11 +473,11 @@
         android:text="\?"
         android:textColor="#FDFDFD"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot15DI"
-        app:layout_constraintTop_toTopOf="@+id/TVslot15DI" />
+        app:layout_constraintStart_toEndOf="@+id/kldsjlkdsjdskl"
+        app:layout_constraintTop_toTopOf="@+id/kldsjlkdsjdskl" />
 
     <TextView
-        android:id="@+id/TVslot17DI"
+        android:id="@+id/kdsljkdsljds"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -487,11 +487,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot16DI"
-        app:layout_constraintTop_toTopOf="@+id/TVslot16DI" />
+        app:layout_constraintStart_toEndOf="@+id/ksdjkjdshds"
+        app:layout_constraintTop_toTopOf="@+id/ksdjkjdshds" />
 
     <TextView
-        android:id="@+id/TVslot1717DI"
+        android:id="@+id/klsdjlkdsjdkls"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -501,162 +501,11 @@
         android:text="\?"
         android:textColor="#FDFDFD"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot16DI"
-        app:layout_constraintTop_toTopOf="@+id/TVslot15DI" />
+        app:layout_constraintStart_toEndOf="@+id/ksdjkjdshds"
+        app:layout_constraintTop_toTopOf="@+id/kldsjlkdsjdskl" />
 
     <TextView
-        android:id="@+id/TVslot19DI"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="6dp"
-        android:background="@color/red"
-        android:gravity="center"
-        android:scaleY="1.0"
-        android:text=""
-        android:textColor="#FFFFFF"
-        android:textSize="14sp"
-        app:layout_constraintStart_toStartOf="@+id/frameDI"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot13DI" />
-
-    <TextView
-        android:id="@+id/TVslot1919DI"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="6dp"
-        android:background="@color/red"
-        android:gravity="center"
-        android:scaleY="0"
-        android:text="\?"
-        android:textColor="#FDFDFD"
-        android:textSize="14sp"
-        app:layout_constraintStart_toStartOf="@+id/frameDI"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot13DI" />
-
-    <TextView
-        android:id="@+id/TVslot20DI"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="6dp"
-        android:background="@color/red"
-        android:gravity="center"
-        android:scaleY="1.0"
-        android:text=""
-        android:textColor="#FFFFFF"
-        android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot19DI"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot13DI" />
-
-    <TextView
-        android:id="@+id/TVslot2020DI"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="6dp"
-        android:background="@color/red"
-        android:gravity="center"
-        android:scaleY="0"
-        android:text="\?"
-        android:textColor="#FDFDFD"
-        android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot19DI"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot13DI" />
-
-    <TextView
-        android:id="@+id/TVslot21DI"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="6dp"
-        android:background="@color/red"
-        android:gravity="center"
-        android:scaleY="1.0"
-        android:text=""
-        android:textColor="#FFFFFF"
-        android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot20DI"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot13DI" />
-
-    <TextView
-        android:id="@+id/TVslot2121DI"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="6dp"
-        android:background="@color/red"
-        android:gravity="center"
-        android:scaleY="0"
-        android:text="\?"
-        android:textColor="#FDFDFD"
-        android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot20DI"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot13DI" />
-
-
-    <TextView
-        android:id="@+id/TVslot222DI"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="6dp"
-        android:background="@color/red"
-        android:gravity="center"
-        android:scaleY="1.0"
-        android:text=""
-        android:textColor="#FFFFFF"
-        android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot21DI"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot13DI" />
-
-    <TextView
-        android:id="@+id/TVslot2222DI"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="6dp"
-        android:background="@color/red"
-        android:gravity="center"
-        android:scaleY="0"
-        android:text="\?"
-        android:textColor="#FDFDFD"
-        android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot21DI"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot13DI" />
-
-    <TextView
-        android:id="@+id/TVslot23DI"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="6dp"
-        android:background="@color/red"
-        android:gravity="center"
-        android:scaleY="1.0"
-        android:text=""
-        android:textColor="#FFFFFF"
-        android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot222DI"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot13DI" />
-
-    <TextView
-        android:id="@+id/TVslot2323DI"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="6dp"
-        android:background="@color/red"
-        android:gravity="center"
-        android:scaleY="0"
-        android:text="\?"
-        android:textColor="#FDFDFD"
-        android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot222DI"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot13DI" />
-
-    <TextView
-        android:id="@+id/TVslot25DI"
+        android:id="@+id/jdsklkdsjl"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -668,10 +517,10 @@
         android:textColor="#FFFFFF"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="@+id/frameDI"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot19DI" />
+        app:layout_constraintTop_toBottomOf="@+id/kjdsdskjhds" />
 
     <TextView
-        android:id="@+id/TVslot2525DI"
+        android:id="@+id/klsdjlksdjsldk"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -683,10 +532,10 @@
         android:textColor="#FDFDFD"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="@+id/frameDI"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot19DI" />
+        app:layout_constraintTop_toBottomOf="@+id/kjdsdskjhds" />
 
     <TextView
-        android:id="@+id/TVslot26DI"
+        android:id="@+id/kjsddsjkdsj"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -697,11 +546,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot25DI"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot19DI" />
+        app:layout_constraintStart_toEndOf="@+id/jdsklkdsjl"
+        app:layout_constraintTop_toBottomOf="@+id/kjdsdskjhds" />
 
     <TextView
-        android:id="@+id/TVslot2626DI"
+        android:id="@+id/lksdjklfjlskd"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -712,11 +561,11 @@
         android:text="\?"
         android:textColor="#FDFDFD"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot25DI"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot19DI" />
+        app:layout_constraintStart_toEndOf="@+id/jdsklkdsjl"
+        app:layout_constraintTop_toBottomOf="@+id/kjdsdskjhds" />
 
     <TextView
-        android:id="@+id/TVslot27DI"
+        android:id="@+id/mksdnkdsjds"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -727,11 +576,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot26DI"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot19DI" />
+        app:layout_constraintStart_toEndOf="@+id/kjsddsjkdsj"
+        app:layout_constraintTop_toBottomOf="@+id/kjdsdskjhds" />
 
     <TextView
-        android:id="@+id/TVslot2727DI"
+        android:id="@+id/lkdsjlkdsjds"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -742,11 +591,12 @@
         android:text="\?"
         android:textColor="#FDFDFD"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot26DI"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot19DI" />
+        app:layout_constraintStart_toEndOf="@+id/kjsddsjkdsj"
+        app:layout_constraintTop_toBottomOf="@+id/kjdsdskjhds" />
+
 
     <TextView
-        android:id="@+id/TVslot28DI"
+        android:id="@+id/idsjiufdydsf"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -757,11 +607,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot27DI"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot19DI" />
+        app:layout_constraintStart_toEndOf="@+id/mksdnkdsjds"
+        app:layout_constraintTop_toBottomOf="@+id/kjdsdskjhds" />
 
     <TextView
-        android:id="@+id/TVslot2828DI"
+        android:id="@+id/skldjklsdjdslk"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -772,8 +622,158 @@
         android:text="\?"
         android:textColor="#FDFDFD"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot27DI"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot19DI" />
+        app:layout_constraintStart_toEndOf="@+id/mksdnkdsjds"
+        app:layout_constraintTop_toBottomOf="@+id/kjdsdskjhds" />
+
+    <TextView
+        android:id="@+id/ksdhdjdshkjds"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/idsjiufdydsf"
+        app:layout_constraintTop_toBottomOf="@+id/kjdsdskjhds" />
+
+    <TextView
+        android:id="@+id/kdsljlksdjdskl"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/idsjiufdydsf"
+        app:layout_constraintTop_toBottomOf="@+id/kjdsdskjhds" />
+
+    <TextView
+        android:id="@+id/jkdsdsjkjhdsj"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDI"
+        app:layout_constraintTop_toBottomOf="@+id/jdsklkdsjl" />
+
+    <TextView
+        android:id="@+id/kdsjkcjld"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDI"
+        app:layout_constraintTop_toBottomOf="@+id/jdsklkdsjl" />
+
+    <TextView
+        android:id="@+id/jkdsjsdkdsss"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/jkdsdsjkjhdsj"
+        app:layout_constraintTop_toBottomOf="@+id/jdsklkdsjl" />
+
+    <TextView
+        android:id="@+id/kjdsjsdlkds"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/jkdsdsjkjhdsj"
+        app:layout_constraintTop_toBottomOf="@+id/jdsklkdsjl" />
+
+    <TextView
+        android:id="@+id/djksdskjdsh"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/jkdsjsdkdsss"
+        app:layout_constraintTop_toBottomOf="@+id/jdsklkdsjl" />
+
+    <TextView
+        android:id="@+id/ddfhdfsljkfjl"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/jkdsjsdkdsss"
+        app:layout_constraintTop_toBottomOf="@+id/jdsklkdsjl" />
+
+    <TextView
+        android:id="@+id/jksdnkdsjhds"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/djksdskjdsh"
+        app:layout_constraintTop_toBottomOf="@+id/jdsklkdsjl" />
+
+    <TextView
+        android:id="@+id/dskldsjkdjsd"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/djksdskjdsh"
+        app:layout_constraintTop_toBottomOf="@+id/jdsklkdsjl" />
 
     <TextView
         android:id="@+id/TVslot29DI"
@@ -787,11 +787,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot28DI"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot19DI" />
+        app:layout_constraintStart_toEndOf="@+id/jksdnkdsjhds"
+        app:layout_constraintTop_toBottomOf="@+id/jdsklkdsjl" />
 
     <TextView
-        android:id="@+id/TVslot25top"
+        android:id="@+id/dslkjdskjdsk"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -802,8 +802,8 @@
         android:text="\?"
         android:textColor="#FDFDFD"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot28DI"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot19DI" />
+        app:layout_constraintStart_toEndOf="@+id/jksdnkdsjhds"
+        app:layout_constraintTop_toBottomOf="@+id/jdsklkdsjl" />
 
 
     <FrameLayout
@@ -826,11 +826,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot9DIB"
+        app:layout_constraintStart_toEndOf="@+id/foshldfkhvnjkf"
         app:layout_constraintTop_toTopOf="@+id/frameDIB" />
 
     <TextView
-        android:id="@+id/TVslot44DIB"
+        android:id="@+id/djljfdkjfs"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -841,7 +841,7 @@
         android:text="\?"
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot9DIB"
+        app:layout_constraintStart_toEndOf="@+id/foshldfkhvnjkf"
         app:layout_constraintTop_toTopOf="@+id/frameDIB" />
 
     <TextView
@@ -860,7 +860,7 @@
         app:layout_constraintTop_toTopOf="@+id/frameDIB" />
 
     <TextView
-        android:id="@+id/TVslot111DIB"
+        android:id="@+id/dksljdlksjds"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -890,7 +890,7 @@
         app:layout_constraintTop_toTopOf="@+id/frameDIB" />
 
     <TextView
-        android:id="@+id/TVslot22DIB"
+        android:id="@+id/ksdjkdsjhds"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -922,7 +922,7 @@
 
 
     <TextView
-        android:id="@+id/TVslot33DIB"
+        android:id="@+id/kjdsjdlkskldsj"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -938,7 +938,7 @@
 
 
     <TextView
-        android:id="@+id/TVslot5DIB"
+        android:id="@+id/klfdkjdfdfh"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -953,7 +953,7 @@
         app:layout_constraintTop_toTopOf="@+id/frameDIB" />
 
     <TextView
-        android:id="@+id/TVslot55DIB"
+        android:id="@+id/jkrdhfjkhfjkd"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -969,7 +969,7 @@
 
 
     <TextView
-        android:id="@+id/TVslot7DIB"
+        android:id="@+id/jdkhjdfkhjdf"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -983,7 +983,7 @@
         app:layout_constraintTop_toBottomOf="@+id/TVslot1DIB" />
 
     <TextView
-        android:id="@+id/TVslot77DIB"
+        android:id="@+id/ojsdfhoeudfs"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -999,7 +999,7 @@
 
 
     <TextView
-        android:id="@+id/TVslot8DIB"
+        android:id="@+id/jkndfjdfjkdf"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1010,11 +1010,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot7DIB"
+        app:layout_constraintStart_toEndOf="@+id/jdkhjdfkhjdf"
         app:layout_constraintTop_toBottomOf="@+id/TVslot4DIB" />
 
     <TextView
-        android:id="@+id/TVslot88DIB"
+        android:id="@+id/djkshjkdhkfdj"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1025,11 +1025,11 @@
         android:text="\?"
         android:textColor="#FDFDFD"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot7DIB"
+        app:layout_constraintStart_toEndOf="@+id/jdkhjdfkhjdf"
         app:layout_constraintTop_toBottomOf="@+id/TVslot4DIB" />
 
     <TextView
-        android:id="@+id/TVslot9DIB"
+        android:id="@+id/foshldfkhvnjkf"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1040,11 +1040,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot8DIB"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot5DIB" />
+        app:layout_constraintStart_toEndOf="@+id/jkndfjdfjkdf"
+        app:layout_constraintTop_toBottomOf="@+id/klfdkjdfdfh" />
 
     <TextView
-        android:id="@+id/TVslot99DIB"
+        android:id="@+id/dkljxfkljfd"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1055,12 +1055,12 @@
         android:text="\?"
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot8DIB"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot5DIB" />
+        app:layout_constraintStart_toEndOf="@+id/jkndfjdfjkdf"
+        app:layout_constraintTop_toBottomOf="@+id/klfdkjdfdfh" />
 
 
     <TextView
-        android:id="@+id/TVslot10DIB"
+        android:id="@+id/jkdsndsjkndsf"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1070,11 +1070,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="@+id/TVslot8DIB"
-        app:layout_constraintStart_toEndOf="@+id/TVslot9DIB" />
+        app:layout_constraintBottom_toBottomOf="@+id/jkndfjdfjkdf"
+        app:layout_constraintStart_toEndOf="@+id/foshldfkhvnjkf" />
 
     <TextView
-        android:id="@+id/TVslot1010DIB"
+        android:id="@+id/dfjfkfdjlkfd"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1084,12 +1084,12 @@
         android:text="\?"
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot9DIB"
-        app:layout_constraintTop_toTopOf="@+id/TVslot8DIB" />
+        app:layout_constraintStart_toEndOf="@+id/foshldfkhvnjkf"
+        app:layout_constraintTop_toTopOf="@+id/jkndfjdfjkdf" />
 
 
     <TextView
-        android:id="@+id/TVslot11DIB"
+        android:id="@+id/kjfdnfdjnfdj"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1099,11 +1099,11 @@
         android:text=""
         android:textColor="#F8F8F8"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot10DIB"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot5DIB" />
+        app:layout_constraintStart_toEndOf="@+id/jkdsndsjkndsf"
+        app:layout_constraintTop_toBottomOf="@+id/klfdkjdfdfh" />
 
     <TextView
-        android:id="@+id/TVslot1111DIB"
+        android:id="@+id/dflkjdflkjfd"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1114,12 +1114,12 @@
         android:text="\?"
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot10DIB"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot5DIB"></TextView>
+        app:layout_constraintStart_toEndOf="@+id/jkdsndsjkndsf"
+        app:layout_constraintTop_toBottomOf="@+id/klfdkjdfdfh"></TextView>
 
 
     <TextView
-        android:id="@+id/TVslot13DIB"
+        android:id="@+id/cdnfdknvcjknfsjc"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1131,10 +1131,10 @@
         android:textColor="#FFFFFF"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="@+id/frameDIB"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot9DIB" />
+        app:layout_constraintTop_toBottomOf="@+id/foshldfkhvnjkf" />
 
     <TextView
-        android:id="@+id/TVslot1313DIB"
+        android:id="@+id/fjdlhjdfkjfd"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1146,10 +1146,10 @@
         android:textColor="#FFFFFF"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="@+id/frameDIB"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot9DIB" />
+        app:layout_constraintTop_toBottomOf="@+id/foshldfkhvnjkf" />
 
     <TextView
-        android:id="@+id/TVslot14DIB"
+        android:id="@+id/jkfscnfjncjkf"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1160,11 +1160,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot13DIB"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot10DIB" />
+        app:layout_constraintStart_toEndOf="@+id/cdnfdknvcjknfsjc"
+        app:layout_constraintTop_toBottomOf="@+id/jkdsndsjkndsf" />
 
     <TextView
-        android:id="@+id/TVslot1414DIB"
+        android:id="@+id/dlkjfdkljdfjdf"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1175,12 +1175,12 @@
         android:text="\?"
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot13DIB"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot10DIB" />
+        app:layout_constraintStart_toEndOf="@+id/cdnfdknvcjknfsjc"
+        app:layout_constraintTop_toBottomOf="@+id/jkdsndsjkndsf" />
 
 
     <TextView
-        android:id="@+id/TVslot15DIB"
+        android:id="@+id/jkfdnfdjknfdkjfd"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1190,11 +1190,11 @@
         android:text=""
         android:textColor="#F8F8F8"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot14DIB"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot11DIB" />
+        app:layout_constraintStart_toEndOf="@+id/jkfscnfjncjkf"
+        app:layout_constraintTop_toBottomOf="@+id/kjfdnfdjnfdj" />
 
     <TextView
-        android:id="@+id/TVslot1515DIB"
+        android:id="@+id/sdjlkfsjfsk"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1205,12 +1205,12 @@
         android:text="\?"
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot14DIB"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot11DIB"></TextView>
+        app:layout_constraintStart_toEndOf="@+id/jkfscnfjncjkf"
+        app:layout_constraintTop_toBottomOf="@+id/kjfdnfdjnfdj"></TextView>
 
 
     <TextView
-        android:id="@+id/TVslot16DIB"
+        android:id="@+id/kdfndfkjndf"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1220,11 +1220,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="@+id/TVslot15DIB"
-        app:layout_constraintStart_toEndOf="@+id/TVslot15DIB" />
+        app:layout_constraintBottom_toBottomOf="@+id/jkfdnfdjknfdkjfd"
+        app:layout_constraintStart_toEndOf="@+id/jkfdnfdjknfdkjfd" />
 
     <TextView
-        android:id="@+id/TVslot1616DIB"
+        android:id="@+id/jkfdhkdjfhdf"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1234,11 +1234,11 @@
         android:text="\?"
         android:textColor="#FDFDFD"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot15DIB"
-        app:layout_constraintTop_toTopOf="@+id/TVslot15DIB" />
+        app:layout_constraintStart_toEndOf="@+id/jkfdnfdjknfdkjfd"
+        app:layout_constraintTop_toTopOf="@+id/jkfdnfdjknfdkjfd" />
 
     <TextView
-        android:id="@+id/TVslot17DIB"
+        android:id="@+id/dfknfdjnfdjkdfnkjdf"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1248,11 +1248,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot16DIB"
-        app:layout_constraintTop_toTopOf="@+id/TVslot16DIB" />
+        app:layout_constraintStart_toEndOf="@+id/kdfndfkjndf"
+        app:layout_constraintTop_toTopOf="@+id/kdfndfkjndf" />
 
     <TextView
-        android:id="@+id/TVslot1717DIB"
+        android:id="@+id/dsjkhfdjkdf"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1262,162 +1262,11 @@
         android:text="\?"
         android:textColor="#FDFDFD"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot16DIB"
-        app:layout_constraintTop_toTopOf="@+id/TVslot15DIB" />
+        app:layout_constraintStart_toEndOf="@+id/kdfndfkjndf"
+        app:layout_constraintTop_toTopOf="@+id/jkfdnfdjknfdkjfd" />
 
     <TextView
-        android:id="@+id/TVslot19DIB"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="6dp"
-        android:background="@color/red"
-        android:gravity="center"
-        android:scaleY="1.0"
-        android:text=""
-        android:textColor="#FFFFFF"
-        android:textSize="14sp"
-        app:layout_constraintStart_toStartOf="@+id/frameDIB"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIB" />
-
-    <TextView
-        android:id="@+id/TVslot1919DIB"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="6dp"
-        android:background="@color/red"
-        android:gravity="center"
-        android:scaleY="0"
-        android:text="\?"
-        android:textColor="#FDFDFD"
-        android:textSize="14sp"
-        app:layout_constraintStart_toStartOf="@+id/frameDIB"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIB" />
-
-    <TextView
-        android:id="@+id/TVslot20DIB"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="6dp"
-        android:background="@color/red"
-        android:gravity="center"
-        android:scaleY="1.0"
-        android:text=""
-        android:textColor="#FFFFFF"
-        android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot19DIB"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIB" />
-
-    <TextView
-        android:id="@+id/TVslot2020DIB"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="6dp"
-        android:background="@color/red"
-        android:gravity="center"
-        android:scaleY="0"
-        android:text="\?"
-        android:textColor="#FDFDFD"
-        android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot19DIB"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIB" />
-
-    <TextView
-        android:id="@+id/TVslot21DIB"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="6dp"
-        android:background="@color/red"
-        android:gravity="center"
-        android:scaleY="1.0"
-        android:text=""
-        android:textColor="#FFFFFF"
-        android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot20DIB"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIB" />
-
-    <TextView
-        android:id="@+id/TVslot2121DIB"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="6dp"
-        android:background="@color/red"
-        android:gravity="center"
-        android:scaleY="0"
-        android:text="\?"
-        android:textColor="#FDFDFD"
-        android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot20DIB"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIB" />
-
-
-    <TextView
-        android:id="@+id/TVslot222DIB"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="6dp"
-        android:background="@color/red"
-        android:gravity="center"
-        android:scaleY="1.0"
-        android:text=""
-        android:textColor="#FFFFFF"
-        android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot21DIB"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIB" />
-
-    <TextView
-        android:id="@+id/TVslot2222DIB"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="6dp"
-        android:background="@color/red"
-        android:gravity="center"
-        android:scaleY="0"
-        android:text="\?"
-        android:textColor="#FDFDFD"
-        android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot21DIB"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIB" />
-
-    <TextView
-        android:id="@+id/TVslot23DIB"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="6dp"
-        android:background="@color/red"
-        android:gravity="center"
-        android:scaleY="1.0"
-        android:text=""
-        android:textColor="#FFFFFF"
-        android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot222DIB"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIB" />
-
-    <TextView
-        android:id="@+id/TVslot2323DIB"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="6dp"
-        android:background="@color/red"
-        android:gravity="center"
-        android:scaleY="0"
-        android:text="\?"
-        android:textColor="#FDFDFD"
-        android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot222DIB"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIB" />
-
-    <TextView
-        android:id="@+id/TVslot25DIB"
+        android:id="@+id/fjkdfdnjnfdjkfdn"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1429,10 +1278,10 @@
         android:textColor="#FFFFFF"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="@+id/frameDIB"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIB" />
+        app:layout_constraintTop_toBottomOf="@+id/cdnfdknvcjknfsjc" />
 
     <TextView
-        android:id="@+id/TVslot2525DIB"
+        android:id="@+id/kjfdhkjfdh"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1444,10 +1293,10 @@
         android:textColor="#FDFDFD"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="@+id/frameDIB"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIB" />
+        app:layout_constraintTop_toBottomOf="@+id/cdnfdknvcjknfsjc" />
 
     <TextView
-        android:id="@+id/TVslot26DIB"
+        android:id="@+id/kjfjdfknfcjkndjkdfj"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1458,11 +1307,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot25DIB"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIB" />
+        app:layout_constraintStart_toEndOf="@+id/fjkdfdnjnfdjkfdn"
+        app:layout_constraintTop_toBottomOf="@+id/cdnfdknvcjknfsjc" />
 
     <TextView
-        android:id="@+id/TVslot2626DIB"
+        android:id="@+id/dskljklfjfdk"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1473,11 +1322,11 @@
         android:text="\?"
         android:textColor="#FDFDFD"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot25DIB"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIB" />
+        app:layout_constraintStart_toEndOf="@+id/fjkdfdnjnfdjkfdn"
+        app:layout_constraintTop_toBottomOf="@+id/cdnfdknvcjknfsjc" />
 
     <TextView
-        android:id="@+id/TVslot27DIB"
+        android:id="@+id/dfkdfkndfkdsfjkds"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1488,11 +1337,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot26DIB"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIB" />
+        app:layout_constraintStart_toEndOf="@+id/kjfjdfknfcjkndjkdfj"
+        app:layout_constraintTop_toBottomOf="@+id/cdnfdknvcjknfsjc" />
 
     <TextView
-        android:id="@+id/TVslot2727DIB"
+        android:id="@+id/jdfhdkjfhdf"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1503,11 +1352,12 @@
         android:text="\?"
         android:textColor="#FDFDFD"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot26DIB"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIB" />
+        app:layout_constraintStart_toEndOf="@+id/kjfjdfknfcjkndjkdfj"
+        app:layout_constraintTop_toBottomOf="@+id/cdnfdknvcjknfsjc" />
+
 
     <TextView
-        android:id="@+id/TVslot28DIB"
+        android:id="@+id/jkdshifsjdhferhyetteu"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1518,11 +1368,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot27DIB"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIB" />
+        app:layout_constraintStart_toEndOf="@+id/dfkdfkndfkdsfjkds"
+        app:layout_constraintTop_toBottomOf="@+id/cdnfdknvcjknfsjc" />
 
     <TextView
-        android:id="@+id/TVslot2828DIB"
+        android:id="@+id/jkdshsjkhjsf"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1533,8 +1383,158 @@
         android:text="\?"
         android:textColor="#FDFDFD"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot27DIB"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIB" />
+        app:layout_constraintStart_toEndOf="@+id/dfkdfkndfkdsfjkds"
+        app:layout_constraintTop_toBottomOf="@+id/cdnfdknvcjknfsjc" />
+
+    <TextView
+        android:id="@+id/djfkfidueityeinc"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/jkdshifsjdhferhyetteu"
+        app:layout_constraintTop_toBottomOf="@+id/cdnfdknvcjknfsjc" />
+
+    <TextView
+        android:id="@+id/dskjfhjkfs"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/jkdshifsjdhferhyetteu"
+        app:layout_constraintTop_toBottomOf="@+id/cdnfdknvcjknfsjc" />
+
+    <TextView
+        android:id="@+id/krjthtfrnrjtyrk"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDIB"
+        app:layout_constraintTop_toBottomOf="@+id/fjkdfdnjnfdjkfdn" />
+
+    <TextView
+        android:id="@+id/dskjhfdjksfh"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDIB"
+        app:layout_constraintTop_toBottomOf="@+id/fjkdfdnjnfdjkfdn" />
+
+    <TextView
+        android:id="@+id/eruireuiejin"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/krjthtfrnrjtyrk"
+        app:layout_constraintTop_toBottomOf="@+id/fjkdfdnjnfdjkfdn" />
+
+    <TextView
+        android:id="@+id/jdskhsdkjhf"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/krjthtfrnrjtyrk"
+        app:layout_constraintTop_toBottomOf="@+id/fjkdfdnjnfdjkfdn" />
+
+    <TextView
+        android:id="@+id/iecnierurt"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/eruireuiejin"
+        app:layout_constraintTop_toBottomOf="@+id/fjkdfdnjnfdjkfdn" />
+
+    <TextView
+        android:id="@+id/kdsjsdjksdjds"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/eruireuiejin"
+        app:layout_constraintTop_toBottomOf="@+id/fjkdfdnjnfdjkfdn" />
+
+    <TextView
+        android:id="@+id/jncjneruergfnuth"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/iecnierurt"
+        app:layout_constraintTop_toBottomOf="@+id/fjkdfdnjnfdjkfdn" />
+
+    <TextView
+        android:id="@+id/kdsjksdljds"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/iecnierurt"
+        app:layout_constraintTop_toBottomOf="@+id/fjkdfdnjnfdjkfdn" />
 
     <TextView
         android:id="@+id/TVslot29DIB"
@@ -1548,11 +1548,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot28DIB"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIB" />
+        app:layout_constraintStart_toEndOf="@+id/jncjneruergfnuth"
+        app:layout_constraintTop_toBottomOf="@+id/fjkdfdnjnfdjkfdn" />
 
     <TextView
-        android:id="@+id/TVslot25topB"
+        android:id="@+id/djskfksdfh"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1563,8 +1563,8 @@
         android:text="\?"
         android:textColor="#FDFDFD"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot28DIB"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIB" />
+        app:layout_constraintStart_toEndOf="@+id/jncjneruergfnuth"
+        app:layout_constraintTop_toBottomOf="@+id/fjkdfdnjnfdjkfdn" />
 
 
     <FrameLayout
@@ -1587,11 +1587,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot9DIM"
+        app:layout_constraintStart_toEndOf="@+id/jfshvjkbihniud"
         app:layout_constraintTop_toTopOf="@+id/frameDIM" />
 
     <TextView
-        android:id="@+id/TVslot44DIM"
+        android:id="@+id/fdkjhfdjkdfh"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1602,7 +1602,7 @@
         android:text="\?"
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot9DIM"
+        app:layout_constraintStart_toEndOf="@+id/jfshvjkbihniud"
         app:layout_constraintTop_toTopOf="@+id/frameDIM" />
 
 
@@ -1622,7 +1622,7 @@
         app:layout_constraintTop_toTopOf="@+id/frameDIM" />
 
     <TextView
-        android:id="@+id/TVslot111DIM"
+        android:id="@+id/jksdhfjkhfkjd"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1652,7 +1652,7 @@
         app:layout_constraintTop_toTopOf="@+id/frameDIM" />
 
     <TextView
-        android:id="@+id/TVslot22DIM"
+        android:id="@+id/kdfjhjdfkhfdkj"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1684,7 +1684,7 @@
 
 
     <TextView
-        android:id="@+id/TVslot33DIM"
+        android:id="@+id/kjdshfdjkdfh"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1700,7 +1700,7 @@
 
 
     <TextView
-        android:id="@+id/TVslot5DIM"
+        android:id="@+id/jkdfjinjni"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1715,7 +1715,7 @@
         app:layout_constraintTop_toTopOf="@+id/frameDIM" />
 
     <TextView
-        android:id="@+id/TVslot55DIM"
+        android:id="@+id/dfskjhdfjfj"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1731,7 +1731,7 @@
 
 
     <TextView
-        android:id="@+id/TVslot7DIM"
+        android:id="@+id/idfuifcudfgfvifchbufv"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1745,7 +1745,7 @@
         app:layout_constraintTop_toBottomOf="@+id/TVslot1DIM" />
 
     <TextView
-        android:id="@+id/TVslot77DIM"
+        android:id="@+id/jkdfhkjdfhf"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1761,7 +1761,7 @@
 
 
     <TextView
-        android:id="@+id/TVslot8DIM"
+        android:id="@+id/indcuidfuifduifv"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1772,11 +1772,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot7DIM"
+        app:layout_constraintStart_toEndOf="@+id/idfuifcudfgfvifchbufv"
         app:layout_constraintTop_toBottomOf="@+id/TVslot4DIM" />
 
     <TextView
-        android:id="@+id/TVslot88DIM"
+        android:id="@+id/dfjkhfdkjh"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1787,11 +1787,11 @@
         android:text="\?"
         android:textColor="#FDFDFD"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot7DIM"
+        app:layout_constraintStart_toEndOf="@+id/idfuifcudfgfvifchbufv"
         app:layout_constraintTop_toBottomOf="@+id/TVslot4DIM" />
 
     <TextView
-        android:id="@+id/TVslot9DIM"
+        android:id="@+id/jfshvjkbihniud"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1802,11 +1802,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot8DIM"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot5DIM" />
+        app:layout_constraintStart_toEndOf="@+id/indcuidfuifduifv"
+        app:layout_constraintTop_toBottomOf="@+id/jkdfjinjni" />
 
     <TextView
-        android:id="@+id/TVslot99DIM"
+        android:id="@+id/fjdhkfjhf"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1817,12 +1817,12 @@
         android:text="\?"
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot8DIM"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot5DIM" />
+        app:layout_constraintStart_toEndOf="@+id/indcuidfuifduifv"
+        app:layout_constraintTop_toBottomOf="@+id/jkdfjinjni" />
 
 
     <TextView
-        android:id="@+id/TVslot10DIM"
+        android:id="@+id/dsjhcsihfuieriojfv"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1832,11 +1832,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="@+id/TVslot8DIM"
-        app:layout_constraintStart_toEndOf="@+id/TVslot9DIM" />
+        app:layout_constraintBottom_toBottomOf="@+id/indcuidfuifduifv"
+        app:layout_constraintStart_toEndOf="@+id/jfshvjkbihniud" />
 
     <TextView
-        android:id="@+id/TVslot1010DIM"
+        android:id="@+id/fkdjhdfkjh"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1846,12 +1846,12 @@
         android:text="\?"
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot9DIM"
-        app:layout_constraintTop_toTopOf="@+id/TVslot8DIM" />
+        app:layout_constraintStart_toEndOf="@+id/jfshvjkbihniud"
+        app:layout_constraintTop_toTopOf="@+id/indcuidfuifduifv" />
 
 
     <TextView
-        android:id="@+id/TVslot11DIM"
+        android:id="@+id/jdscdsjkuie"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1861,11 +1861,11 @@
         android:text=""
         android:textColor="#F8F8F8"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot10DIM"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot5DIM" />
+        app:layout_constraintStart_toEndOf="@+id/dsjhcsihfuieriojfv"
+        app:layout_constraintTop_toBottomOf="@+id/jkdfjinjni" />
 
     <TextView
-        android:id="@+id/TVslot1111DIM"
+        android:id="@+id/dfjhkdfjhfdkj"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1876,12 +1876,12 @@
         android:text="\?"
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot10DIM"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot5DIM"></TextView>
+        app:layout_constraintStart_toEndOf="@+id/dsjhcsihfuieriojfv"
+        app:layout_constraintTop_toBottomOf="@+id/jkdfjinjni"></TextView>
 
 
     <TextView
-        android:id="@+id/TVslot13DIM"
+        android:id="@+id/jkdsdsjkds"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1893,10 +1893,10 @@
         android:textColor="#FFFFFF"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="@+id/frameDIM"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot9DIM" />
+        app:layout_constraintTop_toBottomOf="@+id/jfshvjkbihniud" />
 
     <TextView
-        android:id="@+id/TVslot1313DIM"
+        android:id="@+id/jkdshdfjkhdf"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1908,10 +1908,10 @@
         android:textColor="#FFFFFF"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="@+id/frameDIM"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot9DIM" />
+        app:layout_constraintTop_toBottomOf="@+id/jfshvjkbihniud" />
 
     <TextView
-        android:id="@+id/TVslot14DIM"
+        android:id="@+id/jsdchjiskhdciuhsc"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1922,11 +1922,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot13DIM"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot10DIM" />
+        app:layout_constraintStart_toEndOf="@+id/jkdsdsjkds"
+        app:layout_constraintTop_toBottomOf="@+id/dsjhcsihfuieriojfv" />
 
     <TextView
-        android:id="@+id/TVslot1414DIM"
+        android:id="@+id/fdkjhdfkj"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1937,12 +1937,12 @@
         android:text="\?"
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot13DIM"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot10DIM" />
+        app:layout_constraintStart_toEndOf="@+id/jkdsdsjkds"
+        app:layout_constraintTop_toBottomOf="@+id/dsjhcsihfuieriojfv" />
 
 
     <TextView
-        android:id="@+id/TVslot15DIM"
+        android:id="@+id/kdsnkdjhcjdjnierhur"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1952,11 +1952,11 @@
         android:text=""
         android:textColor="#F8F8F8"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot14DIM"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot11DIM" />
+        app:layout_constraintStart_toEndOf="@+id/jsdchjiskhdciuhsc"
+        app:layout_constraintTop_toBottomOf="@+id/jdscdsjkuie" />
 
     <TextView
-        android:id="@+id/TVslot1515DIM"
+        android:id="@+id/jkdsfhfjkdfh"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1967,12 +1967,12 @@
         android:text="\?"
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot14DIM"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot11DIM"></TextView>
+        app:layout_constraintStart_toEndOf="@+id/jsdchjiskhdciuhsc"
+        app:layout_constraintTop_toBottomOf="@+id/jdscdsjkuie"></TextView>
 
 
     <TextView
-        android:id="@+id/TVslot16DIM"
+        android:id="@+id/dscnjskndcjksdn"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1982,11 +1982,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="@+id/TVslot15DIM"
-        app:layout_constraintStart_toEndOf="@+id/TVslot15DIM" />
+        app:layout_constraintBottom_toBottomOf="@+id/kdsnkdjhcjdjnierhur"
+        app:layout_constraintStart_toEndOf="@+id/kdsnkdjhcjdjnierhur" />
 
     <TextView
-        android:id="@+id/TVslot1616DIM"
+        android:id="@+id/jkfdhfdkjd"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -1996,11 +1996,11 @@
         android:text="\?"
         android:textColor="#FDFDFD"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot15DIM"
-        app:layout_constraintTop_toTopOf="@+id/TVslot15DIM" />
+        app:layout_constraintStart_toEndOf="@+id/kdsnkdjhcjdjnierhur"
+        app:layout_constraintTop_toTopOf="@+id/kdsnkdjhcjdjnierhur" />
 
     <TextView
-        android:id="@+id/TVslot17DIM"
+        android:id="@+id/dksmnkdsjcnjkshncs"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -2010,11 +2010,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot16DIM"
-        app:layout_constraintTop_toTopOf="@+id/TVslot16DIM" />
+        app:layout_constraintStart_toEndOf="@+id/dscnjskndcjksdn"
+        app:layout_constraintTop_toTopOf="@+id/dscnjskndcjksdn" />
 
     <TextView
-        android:id="@+id/TVslot1717DIM"
+        android:id="@+id/dndccjdncncn"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -2024,162 +2024,11 @@
         android:text="\?"
         android:textColor="#FDFDFD"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot16DIM"
-        app:layout_constraintTop_toTopOf="@+id/TVslot15DIM" />
+        app:layout_constraintStart_toEndOf="@+id/dscnjskndcjksdn"
+        app:layout_constraintTop_toTopOf="@+id/kdsnkdjhcjdjnierhur" />
 
     <TextView
-        android:id="@+id/TVslot19DIM"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="6dp"
-        android:background="@color/red"
-        android:gravity="center"
-        android:scaleY="1.0"
-        android:text=""
-        android:textColor="#FFFFFF"
-        android:textSize="14sp"
-        app:layout_constraintStart_toStartOf="@+id/frameDIM"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIM" />
-
-    <TextView
-        android:id="@+id/TVslot1919DIM"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="6dp"
-        android:background="@color/red"
-        android:gravity="center"
-        android:scaleY="0"
-        android:text="\?"
-        android:textColor="#FDFDFD"
-        android:textSize="14sp"
-        app:layout_constraintStart_toStartOf="@+id/frameDIM"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIM" />
-
-    <TextView
-        android:id="@+id/TVslot20DIM"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="6dp"
-        android:background="@color/red"
-        android:gravity="center"
-        android:scaleY="1.0"
-        android:text=""
-        android:textColor="#FFFFFF"
-        android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot19DIM"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIM" />
-
-    <TextView
-        android:id="@+id/TVslot2020DIM"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="6dp"
-        android:background="@color/red"
-        android:gravity="center"
-        android:scaleY="0"
-        android:text="\?"
-        android:textColor="#FDFDFD"
-        android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot19DIM"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIM" />
-
-    <TextView
-        android:id="@+id/TVslot21DIM"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="6dp"
-        android:background="@color/red"
-        android:gravity="center"
-        android:scaleY="1.0"
-        android:text=""
-        android:textColor="#FFFFFF"
-        android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot20DIM"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIM" />
-
-    <TextView
-        android:id="@+id/TVslot2121DIM"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="6dp"
-        android:background="@color/red"
-        android:gravity="center"
-        android:scaleY="0"
-        android:text="\?"
-        android:textColor="#FDFDFD"
-        android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot20DIM"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIM" />
-
-
-    <TextView
-        android:id="@+id/TVslot222DIM"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="6dp"
-        android:background="@color/red"
-        android:gravity="center"
-        android:scaleY="1.0"
-        android:text=""
-        android:textColor="#FFFFFF"
-        android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot21DIM"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIM" />
-
-    <TextView
-        android:id="@+id/TVslot2222DIM"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="6dp"
-        android:background="@color/red"
-        android:gravity="center"
-        android:scaleY="0"
-        android:text="\?"
-        android:textColor="#FDFDFD"
-        android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot21DIM"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIM" />
-
-    <TextView
-        android:id="@+id/TVslot23DIM"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="6dp"
-        android:background="@color/red"
-        android:gravity="center"
-        android:scaleY="1.0"
-        android:text=""
-        android:textColor="#FFFFFF"
-        android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot222DIM"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIM" />
-
-    <TextView
-        android:id="@+id/TVslot2323DIM"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="6dp"
-        android:background="@color/red"
-        android:gravity="center"
-        android:scaleY="0"
-        android:text="\?"
-        android:textColor="#FDFDFD"
-        android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot222DIM"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIM" />
-
-    <TextView
-        android:id="@+id/TVslot25DIM"
+        android:id="@+id/kdsjcjnfksjdklcdsj"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -2191,10 +2040,10 @@
         android:textColor="#FFFFFF"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="@+id/frameDIM"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIM" />
+        app:layout_constraintTop_toBottomOf="@+id/jkdsdsjkds" />
 
     <TextView
-        android:id="@+id/TVslot2525DIM"
+        android:id="@+id/dndndnjdnej"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -2206,10 +2055,10 @@
         android:textColor="#FDFDFD"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="@+id/frameDIM"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIM" />
+        app:layout_constraintTop_toBottomOf="@+id/jkdsdsjkds" />
 
     <TextView
-        android:id="@+id/TVslot26DIM"
+        android:id="@+id/kdsnkdsjcndsjkncj"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -2220,11 +2069,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot25DIM"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIM" />
+        app:layout_constraintStart_toEndOf="@+id/kdsjcjnfksjdklcdsj"
+        app:layout_constraintTop_toBottomOf="@+id/jkdsdsjkds" />
 
     <TextView
-        android:id="@+id/TVslot2626DIM"
+        android:id="@+id/jdsjdksfhk"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -2235,11 +2084,11 @@
         android:text="\?"
         android:textColor="#FDFDFD"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot25DIM"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIM" />
+        app:layout_constraintStart_toEndOf="@+id/kdsjcjnfksjdklcdsj"
+        app:layout_constraintTop_toBottomOf="@+id/jkdsdsjkds" />
 
     <TextView
-        android:id="@+id/TVslot27DIM"
+        android:id="@+id/kdsnkdjcnksjdnc"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -2250,11 +2099,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot26DIM"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIM" />
+        app:layout_constraintStart_toEndOf="@+id/kdsnkdsjcndsjkncj"
+        app:layout_constraintTop_toBottomOf="@+id/jkdsdsjkds" />
 
     <TextView
-        android:id="@+id/TVslot2727DIM"
+        android:id="@+id/ksdhfkjshfsj"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -2265,11 +2114,12 @@
         android:text="\?"
         android:textColor="#FDFDFD"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot26DIM"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIM" />
+        app:layout_constraintStart_toEndOf="@+id/kdsnkdsjcndsjkncj"
+        app:layout_constraintTop_toBottomOf="@+id/jkdsdsjkds" />
+
 
     <TextView
-        android:id="@+id/TVslot28DIM"
+        android:id="@+id/dsjkncklsnjzcklndsj"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -2280,11 +2130,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot27DIM"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIM" />
+        app:layout_constraintStart_toEndOf="@+id/kdsnkdjcnksjdnc"
+        app:layout_constraintTop_toBottomOf="@+id/jkdsdsjkds" />
 
     <TextView
-        android:id="@+id/TVslot2828DIM"
+        android:id="@+id/jsdhkjfh"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -2295,8 +2145,158 @@
         android:text="\?"
         android:textColor="#FDFDFD"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot27DIM"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIM" />
+        app:layout_constraintStart_toEndOf="@+id/kdsnkdjcnksjdnc"
+        app:layout_constraintTop_toBottomOf="@+id/jkdsdsjkds" />
+
+    <TextView
+        android:id="@+id/jkdsnjcksbdjckbdznc"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/dsjkncklsnjzcklndsj"
+        app:layout_constraintTop_toBottomOf="@+id/jkdsdsjkds" />
+
+    <TextView
+        android:id="@+id/sdkhfjklhsfklj"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/dsjkncklsnjzcklndsj"
+        app:layout_constraintTop_toBottomOf="@+id/jkdsdsjkds" />
+
+    <TextView
+        android:id="@+id/jkdsnjdsknckjsdn"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDIM"
+        app:layout_constraintTop_toBottomOf="@+id/kdsjcjnfksjdklcdsj" />
+
+    <TextView
+        android:id="@+id/kjfdhkjvk"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDIM"
+        app:layout_constraintTop_toBottomOf="@+id/kdsjcjnfksjdklcdsj" />
+
+    <TextView
+        android:id="@+id/ldsfnlkvcnfklnclskd"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/jkdsnjdsknckjsdn"
+        app:layout_constraintTop_toBottomOf="@+id/kdsjcjnfksjdklcdsj" />
+
+    <TextView
+        android:id="@+id/kfdhfjkdhdf"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/jkdsnjdsknckjsdn"
+        app:layout_constraintTop_toBottomOf="@+id/kdsjcjnfksjdklcdsj" />
+
+    <TextView
+        android:id="@+id/kfdsnjvklcfnsjklncsfd"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/ldsfnlkvcnfklnclskd"
+        app:layout_constraintTop_toBottomOf="@+id/kdsjcjnfksjdklcdsj" />
+
+    <TextView
+        android:id="@+id/kfdhjfkdl"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/ldsfnlkvcnfklnclskd"
+        app:layout_constraintTop_toBottomOf="@+id/kdsjcjnfksjdklcdsj" />
+
+    <TextView
+        android:id="@+id/kdsnkcjsndkjcnds"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/kfdsnjvklcfnsjklncsfd"
+        app:layout_constraintTop_toBottomOf="@+id/kdsjcjnfksjdklcdsj" />
+
+    <TextView
+        android:id="@+id/dlsskjdjsdkhcs"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/kfdsnjvklcfnsjklncsfd"
+        app:layout_constraintTop_toBottomOf="@+id/kdsjcjnfksjdklcdsj" />
 
     <TextView
         android:id="@+id/TVslot29DIM"
@@ -2310,11 +2310,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot28DIM"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIM" />
+        app:layout_constraintStart_toEndOf="@+id/kdsnkcjsndkjcnds"
+        app:layout_constraintTop_toBottomOf="@+id/kdsjcjnfksjdklcdsj" />
 
     <TextView
-        android:id="@+id/TVslot25topM"
+        android:id="@+id/skdjndsjkdsn"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -2325,8 +2325,8 @@
         android:text="\?"
         android:textColor="#FDFDFD"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot28DIM"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIM" />
+        app:layout_constraintStart_toEndOf="@+id/kdsnkcjsndkjcnds"
+        app:layout_constraintTop_toBottomOf="@+id/kdsjcjnfksjdklcdsj" />
 
 
     <FrameLayout
@@ -2336,7 +2336,7 @@
         android:background="@color/gray"
         app:layout_constraintBottom_toBottomOf="@+id/frameww"
         app:layout_constraintEnd_toEndOf="@+id/frameww"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot27DI"></FrameLayout>
+        app:layout_constraintTop_toBottomOf="@+id/djksdskjdsh"></FrameLayout>
 
 
 
@@ -2354,11 +2354,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot9DIE"
+        app:layout_constraintStart_toEndOf="@+id/jkdslnlcksjndskl"
         app:layout_constraintTop_toTopOf="@+id/frameDIE" />
 
     <TextView
-        android:id="@+id/TVslot44DIE"
+        android:id="@+id/jdfkjdfk"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -2369,7 +2369,7 @@
         android:text="\?"
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot9DIE"
+        app:layout_constraintStart_toEndOf="@+id/jkdslnlcksjndskl"
         app:layout_constraintTop_toTopOf="@+id/frameDIE" />
 
 
@@ -2392,7 +2392,7 @@
         app:layout_constraintTop_toTopOf="@+id/frameDIE" />
 
     <TextView
-        android:id="@+id/TVslot111DIE"
+        android:id="@+id/ndskdj"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -2422,7 +2422,7 @@
         app:layout_constraintTop_toTopOf="@+id/frameDIE" />
 
     <TextView
-        android:id="@+id/TVslot22DIE"
+        android:id="@+id/dskjsdkj"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -2454,7 +2454,7 @@
 
 
     <TextView
-        android:id="@+id/TVslot33DIE"
+        android:id="@+id/jdfhkfdhdf"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -2470,7 +2470,7 @@
 
 
     <TextView
-        android:id="@+id/TVslot5DIE"
+        android:id="@+id/mkdsnkcjnsd"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -2485,7 +2485,7 @@
         app:layout_constraintTop_toTopOf="@+id/frameDIE" />
 
     <TextView
-        android:id="@+id/TVslot55DIE"
+        android:id="@+id/jdkshdfkjhdf"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -2501,7 +2501,7 @@
 
 
     <TextView
-        android:id="@+id/TVslot7DIE"
+        android:id="@+id/jkdsncjkdsncjk"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -2515,7 +2515,7 @@
         app:layout_constraintTop_toBottomOf="@+id/TVslot1DIE" />
 
     <TextView
-        android:id="@+id/TVslot77DIE"
+        android:id="@+id/jdsfkfdkjhdf"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -2531,7 +2531,7 @@
 
 
     <TextView
-        android:id="@+id/TVslot8DIE"
+        android:id="@+id/kjdsnkjdcxznds"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -2542,11 +2542,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot7DIE"
+        app:layout_constraintStart_toEndOf="@+id/jkdsncjkdsncjk"
         app:layout_constraintTop_toBottomOf="@+id/TVslot4DIE" />
 
     <TextView
-        android:id="@+id/TVslot88DIE"
+        android:id="@+id/fkdkjdfjfd"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -2557,11 +2557,11 @@
         android:text="\?"
         android:textColor="#FDFDFD"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot7DIE"
+        app:layout_constraintStart_toEndOf="@+id/jkdsncjkdsncjk"
         app:layout_constraintTop_toBottomOf="@+id/TVslot4DIE" />
 
     <TextView
-        android:id="@+id/TVslot9DIE"
+        android:id="@+id/jkdslnlcksjndskl"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -2572,11 +2572,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot8DIE"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot5DIE" />
+        app:layout_constraintStart_toEndOf="@+id/kjdsnkjdcxznds"
+        app:layout_constraintTop_toBottomOf="@+id/mkdsnkcjnsd" />
 
     <TextView
-        android:id="@+id/TVslot99DIE"
+        android:id="@+id/kdjfhkfd"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -2587,12 +2587,12 @@
         android:text="\?"
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot8DIE"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot5DIE" />
+        app:layout_constraintStart_toEndOf="@+id/kjdsnkjdcxznds"
+        app:layout_constraintTop_toBottomOf="@+id/mkdsnkcjnsd" />
 
 
     <TextView
-        android:id="@+id/TVslot10DIE"
+        android:id="@+id/kdsjnkdjcnjd"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -2602,11 +2602,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="10sp"
-        app:layout_constraintBottom_toBottomOf="@+id/TVslot8DIE"
-        app:layout_constraintStart_toEndOf="@+id/TVslot9DIE" />
+        app:layout_constraintBottom_toBottomOf="@+id/kjdsnkjdcxznds"
+        app:layout_constraintStart_toEndOf="@+id/jkdslnlcksjndskl" />
 
     <TextView
-        android:id="@+id/TVslot1010DIE"
+        android:id="@+id/dskjfhdjkfh"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -2616,12 +2616,12 @@
         android:text="\?"
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot9DIE"
-        app:layout_constraintTop_toTopOf="@+id/TVslot8DIE" />
+        app:layout_constraintStart_toEndOf="@+id/jkdslnlcksjndskl"
+        app:layout_constraintTop_toTopOf="@+id/kjdsnkjdcxznds" />
 
 
     <TextView
-        android:id="@+id/TVslot11DIE"
+        android:id="@+id/ksdnvcklsdcnm"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -2631,11 +2631,11 @@
         android:text=""
         android:textColor="#F8F8F8"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot10DIE"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot5DIE" />
+        app:layout_constraintStart_toEndOf="@+id/kdsjnkdjcnjd"
+        app:layout_constraintTop_toBottomOf="@+id/mkdsnkcjnsd" />
 
     <TextView
-        android:id="@+id/TVslot1111DIE"
+        android:id="@+id/fdkhfdkhfd"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -2646,12 +2646,12 @@
         android:text="\?"
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot10DIE"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot5DIE"></TextView>
+        app:layout_constraintStart_toEndOf="@+id/kdsjnkdjcnjd"
+        app:layout_constraintTop_toBottomOf="@+id/mkdsnkcjnsd"></TextView>
 
 
     <TextView
-        android:id="@+id/TVslot13DIE"
+        android:id="@+id/sdlnlcksndklc"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -2663,10 +2663,10 @@
         android:textColor="#FFFFFF"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="@+id/frameDIE"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot9DIE" />
+        app:layout_constraintTop_toBottomOf="@+id/jkdslnlcksjndskl" />
 
     <TextView
-        android:id="@+id/TVslot1313DIE"
+        android:id="@+id/kdsjhjdskh"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -2678,10 +2678,10 @@
         android:textColor="#FFFFFF"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="@+id/frameDIE"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot9DIE" />
+        app:layout_constraintTop_toBottomOf="@+id/jkdslnlcksjndskl" />
 
     <TextView
-        android:id="@+id/TVslot14DIE"
+        android:id="@+id/jkdsndsjknc"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -2692,11 +2692,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot13DIE"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot10DIE" />
+        app:layout_constraintStart_toEndOf="@+id/sdlnlcksndklc"
+        app:layout_constraintTop_toBottomOf="@+id/kdsjnkdjcnjd" />
 
     <TextView
-        android:id="@+id/TVslot1414DIE"
+        android:id="@+id/jkfdshdjkf"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -2707,12 +2707,12 @@
         android:text="\?"
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot13DIE"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot10DIE" />
+        app:layout_constraintStart_toEndOf="@+id/sdlnlcksndklc"
+        app:layout_constraintTop_toBottomOf="@+id/kdsjnkdjcnjd" />
 
 
     <TextView
-        android:id="@+id/TVslot15DIE"
+        android:id="@+id/jkdsnkcjnsdzkcj"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -2722,11 +2722,11 @@
         android:text=""
         android:textColor="#F8F8F8"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot14DIE"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot11DIE" />
+        app:layout_constraintStart_toEndOf="@+id/jkdsndsjknc"
+        app:layout_constraintTop_toBottomOf="@+id/ksdnvcklsdcnm" />
 
     <TextView
-        android:id="@+id/TVslot1515DIE"
+        android:id="@+id/kjcsnkjcdnkj"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -2737,12 +2737,12 @@
         android:text="\?"
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot14DIE"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot11DIE"></TextView>
+        app:layout_constraintStart_toEndOf="@+id/jkdsndsjknc"
+        app:layout_constraintTop_toBottomOf="@+id/ksdnvcklsdcnm"></TextView>
 
 
     <TextView
-        android:id="@+id/TVslot16DIE"
+        android:id="@+id/sdndjnckdsj"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -2752,11 +2752,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="@+id/TVslot15DIE"
-        app:layout_constraintStart_toEndOf="@+id/TVslot15DIE" />
+        app:layout_constraintBottom_toBottomOf="@+id/jkdsnkcjnsdzkcj"
+        app:layout_constraintStart_toEndOf="@+id/jkdsnkcjnsdzkcj" />
 
     <TextView
-        android:id="@+id/TVslot1616DIE"
+        android:id="@+id/dshjdshds"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -2766,11 +2766,11 @@
         android:text="\?"
         android:textColor="#FDFDFD"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot15DIE"
-        app:layout_constraintTop_toTopOf="@+id/TVslot15DIE" />
+        app:layout_constraintStart_toEndOf="@+id/jkdsnkcjnsdzkcj"
+        app:layout_constraintTop_toTopOf="@+id/jkdsnkcjnsdzkcj" />
 
     <TextView
-        android:id="@+id/TVslot17DIE"
+        android:id="@+id/jcdskncjdskqqq"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -2780,11 +2780,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot16DIE"
-        app:layout_constraintTop_toTopOf="@+id/TVslot16DIE" />
+        app:layout_constraintStart_toEndOf="@+id/sdndjnckdsj"
+        app:layout_constraintTop_toTopOf="@+id/sdndjnckdsj" />
 
     <TextView
-        android:id="@+id/TVslot1717DIE"
+        android:id="@+id/jdskhkjcds"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -2794,162 +2794,11 @@
         android:text="\?"
         android:textColor="#FDFDFD"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot16DIE"
-        app:layout_constraintTop_toTopOf="@+id/TVslot15DIE" />
+        app:layout_constraintStart_toEndOf="@+id/sdndjnckdsj"
+        app:layout_constraintTop_toTopOf="@+id/jkdsnkcjnsdzkcj" />
 
     <TextView
-        android:id="@+id/TVslot19DIE"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="6dp"
-        android:background="@color/red"
-        android:gravity="center"
-        android:scaleY="1.0"
-        android:text=""
-        android:textColor="#FFFFFF"
-        android:textSize="14sp"
-        app:layout_constraintStart_toStartOf="@+id/frameDIE"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIE" />
-
-    <TextView
-        android:id="@+id/TVslot1919DIE"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="6dp"
-        android:background="@color/red"
-        android:gravity="center"
-        android:scaleY="0"
-        android:text="\?"
-        android:textColor="#FDFDFD"
-        android:textSize="14sp"
-        app:layout_constraintStart_toStartOf="@+id/frameDIE"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIE" />
-
-    <TextView
-        android:id="@+id/TVslot20DIE"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="6dp"
-        android:background="@color/red"
-        android:gravity="center"
-        android:scaleY="1.0"
-        android:text=""
-        android:textColor="#FFFFFF"
-        android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot19DIE"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIE" />
-
-    <TextView
-        android:id="@+id/TVslot2020DIE"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="6dp"
-        android:background="@color/red"
-        android:gravity="center"
-        android:scaleY="0"
-        android:text="\?"
-        android:textColor="#FDFDFD"
-        android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot19DIE"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIE" />
-
-    <TextView
-        android:id="@+id/TVslot21DIE"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="6dp"
-        android:background="@color/red"
-        android:gravity="center"
-        android:scaleY="1.0"
-        android:text=""
-        android:textColor="#FFFFFF"
-        android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot20DIE"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIE" />
-
-    <TextView
-        android:id="@+id/TVslot2121DIE"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="6dp"
-        android:background="@color/red"
-        android:gravity="center"
-        android:scaleY="0"
-        android:text="\?"
-        android:textColor="#FDFDFD"
-        android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot20DIE"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIE" />
-
-
-    <TextView
-        android:id="@+id/TVslot222DIE"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="6dp"
-        android:background="@color/red"
-        android:gravity="center"
-        android:scaleY="1.0"
-        android:text=""
-        android:textColor="#FFFFFF"
-        android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot21DIE"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIE" />
-
-    <TextView
-        android:id="@+id/TVslot2222DIE"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="6dp"
-        android:background="@color/red"
-        android:gravity="center"
-        android:scaleY="0"
-        android:text="\?"
-        android:textColor="#FDFDFD"
-        android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot21DIE"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIE" />
-
-    <TextView
-        android:id="@+id/TVslot23DIE"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="6dp"
-        android:background="@color/red"
-        android:gravity="center"
-        android:scaleY="1.0"
-        android:text=""
-        android:textColor="#FFFFFF"
-        android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot222DIE"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIE" />
-
-    <TextView
-        android:id="@+id/TVslot2323DIE"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="6dp"
-        android:background="@color/red"
-        android:gravity="center"
-        android:scaleY="0"
-        android:text="\?"
-        android:textColor="#FDFDFD"
-        android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot222DIE"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot13DIE" />
-
-    <TextView
-        android:id="@+id/TVslot25DIE"
+        android:id="@+id/sdmcsdhvi"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -2961,10 +2810,10 @@
         android:textColor="#FFFFFF"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="@+id/frameDIE"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIE" />
+        app:layout_constraintTop_toBottomOf="@+id/sdlnlcksndklc" />
 
     <TextView
-        android:id="@+id/TVslot2525DIE"
+        android:id="@+id/dsnsdfjnfkj"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -2976,10 +2825,10 @@
         android:textColor="#FDFDFD"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="@+id/frameDIE"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIE" />
+        app:layout_constraintTop_toBottomOf="@+id/sdlnlcksndklc" />
 
     <TextView
-        android:id="@+id/TVslot26DIE"
+        android:id="@+id/xkjd"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -2990,11 +2839,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot25DIE"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIE" />
+        app:layout_constraintStart_toEndOf="@+id/sdmcsdhvi"
+        app:layout_constraintTop_toBottomOf="@+id/sdlnlcksndklc" />
 
     <TextView
-        android:id="@+id/TVslot2626DIE"
+        android:id="@+id/sdfnkjfhfkj"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -3005,11 +2854,11 @@
         android:text="\?"
         android:textColor="#FDFDFD"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot25DIE"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIE" />
+        app:layout_constraintStart_toEndOf="@+id/sdmcsdhvi"
+        app:layout_constraintTop_toBottomOf="@+id/sdlnlcksndklc" />
 
     <TextView
-        android:id="@+id/TVslot27DIE"
+        android:id="@+id/dhasa"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -3020,11 +2869,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot26DIE"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIE" />
+        app:layout_constraintStart_toEndOf="@+id/xkjd"
+        app:layout_constraintTop_toBottomOf="@+id/sdlnlcksndklc" />
 
     <TextView
-        android:id="@+id/TVslot2727DIE"
+        android:id="@+id/kdsjhfjkdhfh"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -3035,11 +2884,12 @@
         android:text="\?"
         android:textColor="#FDFDFD"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot26DIE"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIE" />
+        app:layout_constraintStart_toEndOf="@+id/xkjd"
+        app:layout_constraintTop_toBottomOf="@+id/sdlnlcksndklc" />
+
 
     <TextView
-        android:id="@+id/TVslot28DIE"
+        android:id="@+id/shdbdshq"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -3050,11 +2900,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot27DIE"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIE" />
+        app:layout_constraintStart_toEndOf="@+id/dhasa"
+        app:layout_constraintTop_toBottomOf="@+id/sdlnlcksndklc" />
 
     <TextView
-        android:id="@+id/TVslot2828DIE"
+        android:id="@+id/jdskhksjdhds"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -3065,8 +2915,158 @@
         android:text="\?"
         android:textColor="#FDFDFD"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot27DIE"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIE" />
+        app:layout_constraintStart_toEndOf="@+id/dhasa"
+        app:layout_constraintTop_toBottomOf="@+id/sdlnlcksndklc" />
+
+    <TextView
+        android:id="@+id/jkasndskjqq"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/shdbdshq"
+        app:layout_constraintTop_toBottomOf="@+id/sdlnlcksndklc" />
+
+    <TextView
+        android:id="@+id/jkdshjkdshds"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/shdbdshq"
+        app:layout_constraintTop_toBottomOf="@+id/sdlnlcksndklc" />
+
+    <TextView
+        android:id="@+id/sdjkhcjiokm"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDIE"
+        app:layout_constraintTop_toBottomOf="@+id/sdmcsdhvi" />
+
+    <TextView
+        android:id="@+id/dksdsjkhdss"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/frameDIE"
+        app:layout_constraintTop_toBottomOf="@+id/sdmcsdhvi" />
+
+    <TextView
+        android:id="@+id/dskjndsjknsd"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/sdjkhcjiokm"
+        app:layout_constraintTop_toBottomOf="@+id/sdmcsdhvi" />
+
+    <TextView
+        android:id="@+id/snfjkds"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/sdjkhcjiokm"
+        app:layout_constraintTop_toBottomOf="@+id/sdmcsdhvi" />
+
+    <TextView
+        android:id="@+id/kdsnjdsk"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/dskjndsjknsd"
+        app:layout_constraintTop_toBottomOf="@+id/sdmcsdhvi" />
+
+    <TextView
+        android:id="@+id/dskhkjdshds"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/dskjndsjknsd"
+        app:layout_constraintTop_toBottomOf="@+id/sdmcsdhvi" />
+
+    <TextView
+        android:id="@+id/kdssdkljds"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="1.0"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/kdsnjdsk"
+        app:layout_constraintTop_toBottomOf="@+id/sdmcsdhvi" />
+
+    <TextView
+        android:id="@+id/kjdshkdsjhds"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:scaleY="0"
+        android:text="\?"
+        android:textColor="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/kdsnjdsk"
+        app:layout_constraintTop_toBottomOf="@+id/sdmcsdhvi" />
 
     <TextView
         android:id="@+id/TVslot29DIE"
@@ -3080,11 +3080,11 @@
         android:text=""
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot28DIE"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIE" />
+        app:layout_constraintStart_toEndOf="@+id/kdssdkljds"
+        app:layout_constraintTop_toBottomOf="@+id/sdmcsdhvi" />
 
     <TextView
-        android:id="@+id/TVslot25topE"
+        android:id="@+id/dflkjdfkjdf"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="6dp"
@@ -3095,12 +3095,12 @@
         android:text="\?"
         android:textColor="#FDFDFD"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/TVslot28DIE"
-        app:layout_constraintTop_toBottomOf="@+id/TVslot19DIE" />
+        app:layout_constraintStart_toEndOf="@+id/kdssdkljds"
+        app:layout_constraintTop_toBottomOf="@+id/sdmcsdhvi" />
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/CVwin"
+        android:id="@+id/jkdsdjsk"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/blue"
@@ -3111,7 +3111,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <Button
-            android:id="@+id/Breplay"
+            android:id="@+id/djfdlkfjk"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="110dp"
@@ -3129,20 +3129,20 @@
             android:layout_width="188dp"
             android:layout_height="209dp"
             android:src="@drawable/bomb"
-            app:layout_constraintBottom_toTopOf="@+id/Breplay"
+            app:layout_constraintBottom_toTopOf="@+id/djfdlkfjk"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/TVwin"
+            android:id="@+id/dsbdskj"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="your win"
             android:textColor="#d62828"
             android:textSize="45sp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toTopOf="@+id/Breplay"
+            app:layout_constraintBottom_toTopOf="@+id/djfdlkfjk"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageViewzI" />

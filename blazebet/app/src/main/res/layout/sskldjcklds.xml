@@ -9,7 +9,7 @@
     tools:context=".MainActivity">
 
     <WebView
-        android:id="@+id/ksljdklsasd"
+        android:id="@+id/jdnhsdjndskio"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent"></WebView>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/kdsljkdlsasd"
+        android:id="@+id/sjnkdnkjdsfnio"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#2b2d42"

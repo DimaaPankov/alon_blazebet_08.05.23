@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    tools:context=".InfoFragment">
+    tools:context=".dshdskjhdsdhs">
 
     <ImageView
         android:id="@+id/IVinfo"
@@ -39,7 +39,7 @@ Good luck Blaze!
         app:layout_constraintTop_toBottomOf="@+id/IVinfo" />
 
     <Button
-        android:id="@+id/Bback"
+        android:id="@+id/jsdsdkjsd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="50dp"
