@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph2"
+    app:startDestination="@id/mainFragment">
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.fbets.fstavki.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_leftFragment"
+            app:destination="@id/leftFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_centerFragment"
+            app:destination="@id/centerFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_centerFragment2"
+            app:destination="@id/centerFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_rightFragment"
+            app:destination="@id/rightFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/leftFragment"
+        android:name="com.fbets.fstavki.LeftFragment"
+        android:label="fragment_left"
+        tools:layout="@layout/fragment_left" >
+        <action
+            android:id="@+id/action_leftFragment_to_rightFragment"
+            app:destination="@id/rightFragment" />
+        <action
+            android:id="@+id/action_leftFragment_to_centerFragment"
+            app:destination="@id/centerFragment" />
+        <action
+            android:id="@+id/action_leftFragment_to_deteilFragment"
+            app:destination="@id/deteilFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/centerFragment"
+        android:name="com.fbets.fstavki.CenterFragment"
+        android:label="fragment_center"
+        tools:layout="@layout/fragment_center" >
+        <action
+            android:id="@+id/action_centerFragment_to_leftFragment"
+            app:destination="@id/leftFragment" />
+        <action
+            android:id="@+id/action_centerFragment_to_rightFragment"
+            app:destination="@id/rightFragment" />
+        <action
+            android:id="@+id/action_centerFragment_to_deteilFragment"
+            app:destination="@id/deteilFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/rightFragment"
+        android:name="com.fbets.fstavki.RightFragment"
+        android:label="fragment_right"
+        tools:layout="@layout/fragment_right" >
+        <action
+            android:id="@+id/action_rightFragment_to_leftFragment"
+            app:destination="@id/leftFragment" />
+        <action
+            android:id="@+id/action_rightFragment_to_centerFragment"
+            app:destination="@id/centerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/deteilFragment"
+        android:name="com.fbets.fstavki.DeteilFragment"
+        android:label="fragment_deteil"
+        tools:layout="@layout/fragment_deteil" >
+        <action
+            android:id="@+id/action_deteilFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_deteilFragment_to_rightFragment"
+            app:destination="@id/rightFragment" />
+        <action
+            android:id="@+id/action_deteilFragment_to_centerFragment"
+            app:destination="@id/centerFragment" />
+        <action
+            android:id="@+id/action_deteilFragment_to_mainFragment2"
+            app:destination="@id/mainFragment" />
+    </fragment>
+</navigation>

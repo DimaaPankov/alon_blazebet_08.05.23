@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/leftC"
+        android:icon="@drawable/left"
+        android:title="All league" />
+
+    <item
+        android:id="@+id/centerC"
+        android:icon="@drawable/center"
+        android:title="All matches" />
+
+    <item
+        android:id="@+id/rightC"
+        android:icon="@drawable/right"
+        android:title="Статьи" />
+
+
+</menu>

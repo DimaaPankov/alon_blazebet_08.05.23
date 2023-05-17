@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/ldksjflskdjflkdsjkflop">
+
+    <fragment
+        android:id="@+id/ldksjflskdjflkdsjkflop"
+        android:name="com.parimatch.bettingipl.paripari.match.view.ldksjflskdjflkdsjkflop"
+        android:label="ldksjflskdjflkdsjkflop"
+        tools:layout="@layout/ldksjflskdjflkdsjkflop" >
+        <action
+            android:id="@+id/ksldjkldsop"
+            app:destination="@id/ksldjkldsop" />
+    </fragment>
+    <fragment
+        android:id="@+id/ksldjkldsop"
+        android:name="com.parimatch.bettingipl.paripari.match.view.ksldjkldsop"
+        android:label="ksldjkldsop"
+        tools:layout="@layout/ksldjkldsop" >
+        <action
+            android:id="@+id/kldsjlkdsjdskljdklfjkdlf"
+            app:destination="@id/ksldjdkljflkdop" />
+    </fragment>
+    <fragment
+        android:id="@+id/ksldjdkljflkdop"
+        android:name="com.parimatch.bettingipl.paripari.match.view.ksldjdkljflkdop"
+        android:label="ksldjdkljflkdop"
+        tools:layout="@layout/ksldjdkljflkdop" >
+        <action
+            android:id="@+id/dshkjdshkdhjsdop"
+            app:destination="@id/ksldjkldsop" />
+        <argument
+        android:name="klsdjkldc"
+        app:argType="string" />
+        <argument android:name="x1"
+            app:argType="string" />
+        <argument
+            android:name="x2"
+            app:argType="string" />
+        <argument
+            android:name="x3"
+            app:argType="string" />
+    </fragment>
+</navigation>
