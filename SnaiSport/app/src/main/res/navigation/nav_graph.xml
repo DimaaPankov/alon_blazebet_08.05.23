@@ -1,6 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-             xmlns:app="http://schemas.android.com/apk/res-auto"
-             android:id="@+id/nav_graph">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dslkjzflksdjfkldsf">
 
+    <fragment
+        android:id="@+id/dskjbfhsjdkhfjksdia"
+        android:name="com.snaiapp.bettingsnaicasino.snai.sport.fkdljfdlkjdflkjdf.dskjbfhsjdkhfjksdia"
+        android:label="dskjbfhsjdkhfjksdia"
+        tools:layout="@layout/dskjbfhsjdkhfjksdia" >
+        <action
+            android:id="@+id/sDJklfhkjsdfhjkhdjkhdfk"
+            app:destination="@id/dlkjfklsdfjkldsfj" />
+        <action
+            android:id="@+id/kldshjkldsjflkjdsflkjdsfio"
+            app:destination="@id/dlkjfklsdfjkldsfj" />
+    </fragment>
+    <fragment
+        android:id="@+id/dslkjzflksdjfkldsf"
+        android:name="com.snaiapp.bettingsnaicasino.snai.sport.fkdljfdlkjdflkjdf.dslkjzflksdjfkldsf"
+        android:label="dslkjzflksdjfkldsf"
+        tools:layout="@layout/dslkjzflksdjfkldsf">
+        <action
+            android:id="@+id/klsdjdslkjsdio"
+            app:destination="@id/dlkjfklsdfjkldsfj" />
+    </fragment>
+    <fragment
+        android:id="@+id/dlkjfklsdfjkldsfj"
+        android:name="com.snaiapp.bettingsnaicasino.snai.sport.fkdljfdlkjdflkjdf.dlkjfklsdfjkldsfj"
+        android:label="dlkjfklsdfjkldsfj"
+        tools:layout="@layout/dlkjfklsdfjkldsfj"
+
+
+        >
+        <action
+            android:id="@+id/slkjdklsjdlkdsjdskljdsio"
+            app:destination="@id/dskjbfhsjdkhfjksdia" />
+        <action
+            android:id="@+id/kslddjlskdjsdlkdsio"
+            app:destination="@id/klsdjfkljsdfkldsjf" />
+        <action
+            android:id="@+id/sdkljsdljdsljksddsio"
+            app:destination="@id/kdsljlkdsjfkl" />
+    </fragment>
+    <fragment
+        android:id="@+id/klsdjfkljsdfkldsjf"
+        android:name="com.snaiapp.bettingsnaicasino.snai.sport.fkdljfdlkjdflkjdf.klsdjfkljsdfkldsjf"
+        android:label="klsdjfkljsdfkldsjf"
+        tools:layout="@layout/klsdjfkljsdfkldsjf" >
+        <action
+            android:id="@+id/kldsjkldjdskljflkdsjf"
+            app:destination="@id/dlkjfklsdfjkldsfj" />
+    </fragment>
+    <fragment
+        android:id="@+id/kdsljlkdsjfkl"
+        android:name="com.snaiapp.bettingsnaicasino.snai.sport.fkdljfdlkjdflkjdf.kdsljlkdsjfkl"
+        android:label="kdsljlkdsjfkl"
+        tools:layout="@layout/kdsljlkdsjfkl">
+        <action
+            android:id="@+id/ksdljflkds"
+            app:destination="@id/dlkjfklsdfjkldsfj" />
+    </fragment>
 </navigation>

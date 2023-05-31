@@ -1,12 +1,12 @@
-package com.parimatch.betting.parimatch.match.lksdjglkjsklfjsklfdjlkds
+package com.parimatch.betting.parimatch.pari.lksdjglkjsklfjsklfdjlkds
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.parimatch.betting.parimatch.match.R
-import com.parimatch.betting.parimatch.match.betting.dskljfdklsjfklds.dkslsfjldsjklfop
+import com.parimatch.betting.parimatch.pari.R
+import com.parimatch.betting.parimatch.pari.betting.dskljfdklsjfklds.dkslsfjldsjklfop
 
 
 class kldsjfkjdslkfjdop(

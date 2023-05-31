@@ -3,11 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/fragment">
+    app:startDestination="@id/sdlvjnksdllkdsjlds">
 
     <fragment
-        android:id="@+id/fragment"
-        android:name="com.fbets.fstavki.Fragment"
-        android:label="fragment_"
-        tools:layout="@layout/fragment_" />
+        android:id="@+id/sdlvjnksdllkdsjlds"
+        android:name="com.fbets.fstavki.sdlvjnksdllkdsjlds"
+        android:label="sdlvjnksdllkdsjlds"
+        tools:layout="@layout/sdlvjnksdllkdsjlds" />
 </navigation>

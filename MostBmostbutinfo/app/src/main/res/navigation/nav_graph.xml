@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dsjkldjssss">
+
+    <fragment
+        android:id="@+id/dsjkldjssss"
+        android:name="com.mostbet.promosti.mostbet.dsljjdslhdsjkd"
+        android:label=""
+        tools:layout="@layout/ldsmjhldsjsss">
+
+
+        <action
+            android:id="@+id/sdljdskljdsssss"
+            app:destination="@id/dsljdslsss" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/dsljdslsss"
+        android:name="com.mostbet.promosti.mostbet.ldsjlkjdssss"
+        android:label="kljdsdsljd"
+        tools:layout="@layout/dslhdsjkdshsss" >
+        <action
+            android:id="@+id/ddsjkjdsjssss"
+            app:destination="@id/dshdkjshsdssss" />
+        <action
+            android:id="@+id/kasjklasjsssss"
+            app:destination="@id/jdsmhdkjshdssss" />
+    </fragment>
+    <fragment
+        android:id="@+id/dshdkjshsdssss"
+        android:name="com.mostbet.promosti.mostbet.sdjkjhdskjdhsssss"
+        android:label="hakjdshdsjkssss"
+        tools:layout="@layout/dsjsdkljdsssss" >
+        <action
+            android:id="@+id/lksjddsssss"
+            app:destination="@id/dsljdslsss" />
+    </fragment>
+    <fragment
+        android:id="@+id/jdsmhdkjshdssss"
+        android:name="com.mostbet.promosti.mostbet.dshdskjhdssss"
+        android:label="jkdsjhjkdshssss"
+        tools:layout="@layout/dshkjkdshds">
+        <action
+            android:id="@+id/dsjdskljdsss"
+            app:destination="@id/dsljdslsss" />
+    </fragment>
+</navigation>

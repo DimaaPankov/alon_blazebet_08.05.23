@@ -1,4 +1,4 @@
-package com.parimatch.betting.parimatch.match.flkdjgkldsjf
+package com.parimatch.betting.parimatch.pari.flkdjgkldsjf
 
 import android.graphics.Bitmap
 import android.os.Bundle
@@ -11,9 +11,9 @@ import android.webkit.WebView
 import android.webkit.WebViewClient
 import androidx.core.view.isVisible
 import androidx.navigation.fragment.findNavController
-import com.parimatch.betting.parimatch.match.R
-import com.parimatch.betting.parimatch.match.databinding.LdksjflskdjflkdsjkflopBinding
-import com.parimatch.betting.parimatch.match.lksdjglkjsklfjsklfdjlkds.*
+import com.parimatch.betting.parimatch.pari.R
+import com.parimatch.betting.parimatch.pari.databinding.LdksjflskdjflkdsjkflopBinding
+import com.parimatch.betting.parimatch.pari.lksdjglkjsklfjsklfdjlkds.*
 
 
 class ldksjflskdjflkdsjkflop : Fragment() {

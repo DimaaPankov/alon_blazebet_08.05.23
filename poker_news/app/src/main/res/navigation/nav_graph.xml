@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/kljsddskljdskljds">
+
+    <fragment
+        android:id="@+id/kljsddskljdskljds"
+        android:name="cop.saao.sa.poker_news.kldjskldjklsjdkl.kljsddskljdskljds"
+        android:label="kljsddskljdskljds"
+        tools:layout="@layout/kljsddskljdskljds" >
+        <action
+            android:id="@+id/ldksjdslkjds"
+            app:destination="@id/ldksjdslkjds" />
+        <action
+            android:id="@+id/dskljkdsljdslkjdslkdsjldks"
+            app:destination="@id/dskljlkdsjf" />
+    </fragment>
+    <fragment
+        android:id="@+id/dsjdkslksdljsdlkjdslkdsjkldsjdsk"
+        android:name="cop.saao.sa.poker_news.kldjskldjklsjdkl.dsjdkslksdljsdlkjdslkdsjkldsjdsk"
+        android:label="dsjdkslksdljsdlkjdslkdsjkldsjdsk"
+        tools:layout="@layout/dsjdkslksdljsdlkjdslkdsjkldsjdsk" >
+        <action
+            android:id="@+id/kskdlklsdklsdskldjfkljjkfshjkshkjdshfkjdshfkjdshfkjhsdkfjhsdjkfhdskjfhskdjfhkdjshfkjsdfhkdshfkjhfksdhfkjdshkjdfhkdsfjhdsjk"
+            app:destination="@id/dskljlkdsjf" />
+        <action
+            android:id="@+id/dsjkhds"
+            app:destination="@id/jdsjkdsljdslkds" />
+    </fragment>
+    <fragment
+        android:id="@+id/dskljlkdsjf"
+        android:name="cop.saao.sa.poker_news.dskljlkdsjf"
+        android:label="dskljlkdsjf"
+        tools:layout="@layout/dskljlkdsjf" >
+        <action
+            android:id="@+id/skdljdskljds"
+            app:destination="@id/dsjdkslksdljsdlkjdslkdsjkldsjdsk" />
+    </fragment>
+    <fragment
+        android:id="@+id/jdsjkdsljdslkds"
+        android:name="cop.saao.sa.poker_news.jdsjkdsljdslkds"
+        android:label="jdsjkdsljdslkds"
+        tools:layout="@layout/jdsjkdsljdslkds" >
+        <action
+            android:id="@+id/dsklksddslkldsjkdsljdks"
+            app:destination="@id/dsjdkslksdljsdlkjdslkdsjkldsjdsk" />
+    </fragment>
+    <fragment
+        android:id="@+id/ldksjdslkjds"
+        android:name="cop.saao.sa.poker_news.kldjskldjklsjdkl.ldksjdslkjds"
+        tools:layout="@layout/ldksjdslkjds"
+        android:label="ldksjdslkjds">
+        <action
+            android:id="@+id/kdlsjkdsjkdlsjdslkds"
+            app:destination="@id/dskljlkdsjf" />
+    </fragment>
+</navigation>

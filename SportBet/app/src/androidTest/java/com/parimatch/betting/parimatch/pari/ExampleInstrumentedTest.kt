@@ -1,4 +1,4 @@
-package com.parimatch.betting.parimatch.match
+package com.parimatch.betting.parimatch.pari
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

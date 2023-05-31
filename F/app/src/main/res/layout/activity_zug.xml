@@ -20,7 +20,7 @@
         ></fragment>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottom"
+        android:id="@+id/klfdsjgklfdjklds"
         android:layout_width="0dp"
         android:background="#530407"
         android:layout_height="70dp"

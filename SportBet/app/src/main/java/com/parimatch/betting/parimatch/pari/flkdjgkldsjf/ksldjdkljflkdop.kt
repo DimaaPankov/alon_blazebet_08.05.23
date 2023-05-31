@@ -1,4 +1,4 @@
-package com.parimatch.betting.parimatch.match.flkdjgkldsjf
+package com.parimatch.betting.parimatch.pari.flkdjgkldsjf
 
 import android.animation.ObjectAnimator
 import android.os.Bundle
@@ -12,9 +12,9 @@ import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
-import com.parimatch.betting.parimatch.match.R
-import com.parimatch.betting.parimatch.match.databinding.KsldjdkljflkdopBinding
-import com.parimatch.betting.parimatch.match.lksdjglkjsklfjsklfdjlkds.*
+import com.parimatch.betting.parimatch.pari.R
+import com.parimatch.betting.parimatch.pari.databinding.KsldjdkljflkdopBinding
+import com.parimatch.betting.parimatch.pari.lksdjglkjsklfjsklfdjlkds.*
 
 
 import java.text.DecimalFormat

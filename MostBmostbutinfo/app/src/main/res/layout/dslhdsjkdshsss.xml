@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#4a4e69"
+    tools:context=".ldsjlkjdssss">
+
+
+    <ImageView
+        android:id="@+id/klsjkassss"
+        android:layout_width="53dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
+        android:src="@drawable/setting"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <ImageView
+        android:id="@+id/dskjdsss"
+        android:layout_width="53dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/power"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"></ImageView>
+
+
+    <ImageView
+        android:id="@+id/IVlogo"
+        android:layout_width="212dp"
+        android:layout_height="212dp"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/goldengate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <Button
+        android:id="@+id/jdshdsjsss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F2E9E4"
+        android:text="play"
+        android:textColor="#22223B"
+        android:textSize="42sp"
+        app:layout_constraintBottom_toTopOf="@+id/dskjdsss"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/IVlogo"></Button>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

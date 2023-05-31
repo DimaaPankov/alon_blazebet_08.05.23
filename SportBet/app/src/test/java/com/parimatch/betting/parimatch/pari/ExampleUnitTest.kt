@@ -1,4 +1,4 @@
-package com.parimatch.betting.parimatch.match
+package com.parimatch.betting.parimatch.pari
 
 import org.junit.Test
 

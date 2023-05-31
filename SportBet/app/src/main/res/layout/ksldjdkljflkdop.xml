@@ -8,12 +8,12 @@
     android:contentDescription="@string/app_name"
     android:scrollbars="horizontal"
     android:orientation="vertical"
-    tools:context=".mainactivity.MainActivity">
+    tools:context=".lksdjglkjsklfjsklfdjlkds.MainActivity">
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="67dp"
+        android:layout_height="69dp"
         android:layout_margin="30dp"
         android:src="@drawable/football"
         app:layout_constraintEnd_toEndOf="parent"
@@ -415,7 +415,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:text="0Р."
+        android:text="0"
         android:textColor="@color/white"
         android:textSize="50sp"
         android:textStyle="bold"
@@ -428,7 +428,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="somebody - somebody"
+        android:text="somebody - someblkdsjzlasjlndklasdklkfjasody"
         android:textStyle="bold"
         android:textSize="25sp"
         android:textColor="@color/white"

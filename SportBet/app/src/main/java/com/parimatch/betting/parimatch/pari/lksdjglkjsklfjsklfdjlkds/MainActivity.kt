@@ -1,10 +1,10 @@
-package com.parimatch.betting.parimatch.match.lksdjglkjsklfjsklfdjlkds
+package com.parimatch.betting.parimatch.pari.lksdjglkjsklfjsklfdjlkds
 
 import android.content.Context
 import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.parimatch.betting.parimatch.match.R
+import com.parimatch.betting.parimatch.pari.R
 
 class MainActivity : AppCompatActivity() {
 

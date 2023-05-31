@@ -3,83 +3,83 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph2"
-    app:startDestination="@id/mainFragment">
+    app:startDestination="@id/mdnflksjdfkldsjlkfjdslkdjsflk">
     <fragment
-        android:id="@+id/mainFragment"
-        android:name="com.fbets.fstavki.MainFragment"
-        android:label="fragment_main"
-        tools:layout="@layout/fragment_main" >
+        android:id="@+id/mdnflksjdfkldsjlkfjdslkdjsflk"
+        android:name="com.fbets.fstavki.mdnflksjdfkldsjlkfjdslkdjsflk"
+        android:label="mdnflksjdfkldsjlkfjdslkdjsflk"
+        tools:layout="@layout/mdnflksjdfkldsjlkfjdslkdjsflk" >
         <action
-            android:id="@+id/action_mainFragment_to_leftFragment"
-            app:destination="@id/leftFragment" />
+            android:id="@+id/fkljklfdjlkjfsgkkljfsgjklfdjsgklfsjklsd"
+            app:destination="@id/dshdfkgjhdfkghdfkjghdfjk" />
         <action
-            android:id="@+id/action_mainFragment_to_centerFragment"
-            app:destination="@id/centerFragment" />
+            android:id="@+id/dsfhgkjdfghkjdfhgjkdfjk"
+            app:destination="@id/lkdsjlkfjklsgjdflkjgfdklgjdfkl" />
         <action
             android:id="@+id/action_mainFragment_to_centerFragment2"
-            app:destination="@id/centerFragment" />
+            app:destination="@id/lkdsjlkfjklsgjdflkjgfdklgjdfkl" />
         <action
-            android:id="@+id/action_mainFragment_to_rightFragment"
-            app:destination="@id/rightFragment" />
+            android:id="@+id/fkldnhgdjkhjdfkghfkjdghdfjk"
+            app:destination="@id/slkdjfhkflxjghkfjghdlf" />
     </fragment>
     <fragment
-        android:id="@+id/leftFragment"
-        android:name="com.fbets.fstavki.LeftFragment"
-        android:label="fragment_left"
-        tools:layout="@layout/fragment_left" >
+        android:id="@+id/dshdfkgjhdfkghdfkjghdfjk"
+        android:name="com.fbets.fstavki.dshdfkgjhdfkghdfkjghdfjk"
+        android:label="dshdfkgjhdfkghdfkjghdfjk"
+        tools:layout="@layout/dshdfkgjhdfkghdfkjghdfjk" >
         <action
-            android:id="@+id/action_leftFragment_to_rightFragment"
-            app:destination="@id/rightFragment" />
+            android:id="@+id/nfbckjdflhgbjkvfdhgkmhdfjkg"
+            app:destination="@id/slkdjfhkflxjghkfjghdlf" />
         <action
-            android:id="@+id/action_leftFragment_to_centerFragment"
-            app:destination="@id/centerFragment" />
+            android:id="@+id/flkjdgdfhgkjfdhgkjldfhgkjldfh"
+            app:destination="@id/lkdsjlkfjklsgjdflkjgfdklgjdfkl" />
         <action
-            android:id="@+id/action_leftFragment_to_deteilFragment"
-            app:destination="@id/deteilFragment" />
+            android:id="@+id/fjhgkdjfghdjkhglkfdhgknvjkhd"
+            app:destination="@id/dslkgndfklghdkfljghdjflk" />
     </fragment>
     <fragment
-        android:id="@+id/centerFragment"
-        android:name="com.fbets.fstavki.CenterFragment"
-        android:label="fragment_center"
-        tools:layout="@layout/fragment_center" >
+        android:id="@+id/lkdsjlkfjklsgjdflkjgfdklgjdfkl"
+        android:name="com.fbets.fstavki.lkdsjlkfjklsgjdflkjgfdklgjdfkl"
+        android:label="lkdsjlkfjklsgjdflkjgfdklgjdfkl"
+        tools:layout="@layout/lkdsjlkfjklsgjdflkjgfdklgjdfkl" >
         <action
-            android:id="@+id/action_centerFragment_to_leftFragment"
-            app:destination="@id/leftFragment" />
+            android:id="@+id/jsddfljkfjklsjkldsjkldj"
+            app:destination="@id/dshdfkgjhdfkghdfkjghdfjk" />
         <action
-            android:id="@+id/action_centerFragment_to_rightFragment"
-            app:destination="@id/rightFragment" />
+            android:id="@+id/dskkfjsdhfkjhsdfjkhs"
+            app:destination="@id/slkdjfhkflxjghkfjghdlf" />
         <action
-            android:id="@+id/action_centerFragment_to_deteilFragment"
-            app:destination="@id/deteilFragment" />
+            android:id="@+id/djkshfdjkfhnfjkhsdkfjhdsk"
+            app:destination="@id/dslkgndfklghdkfljghdjflk" />
     </fragment>
     <fragment
-        android:id="@+id/rightFragment"
-        android:name="com.fbets.fstavki.RightFragment"
-        android:label="fragment_right"
-        tools:layout="@layout/fragment_right" >
+        android:id="@+id/slkdjfhkflxjghkfjghdlf"
+        android:name="com.fbets.fstavki.slkdjfhkflxjghkfjghdlf"
+        android:label="slkdjfhkflxjghkfjghdlf"
+        tools:layout="@layout/slkdjfhkflxjghkfjghdlf" >
         <action
-            android:id="@+id/action_rightFragment_to_leftFragment"
-            app:destination="@id/leftFragment" />
+            android:id="@+id/kfgvhkdlfjghvnklfdjhkjdh"
+            app:destination="@id/dshdfkgjhdfkghdfkjghdfjk" />
         <action
-            android:id="@+id/action_rightFragment_to_centerFragment"
-            app:destination="@id/centerFragment" />
+            android:id="@+id/xgkjhdfkljghdfkjghdlkjfg"
+            app:destination="@id/lkdsjlkfjklsgjdflkjgfdklgjdfkl" />
     </fragment>
     <fragment
-        android:id="@+id/deteilFragment"
-        android:name="com.fbets.fstavki.DeteilFragment"
-        android:label="fragment_deteil"
-        tools:layout="@layout/fragment_deteil" >
+        android:id="@+id/dslkgndfklghdkfljghdjflk"
+        android:name="com.fbets.fstavki.dslkgndfklghdkfljghdjflk"
+        android:label="dslkgndfklghdkfljghdjflk"
+        tools:layout="@layout/dslkgndfklghdkfljghdjflk" >
         <action
-            android:id="@+id/action_deteilFragment_to_mainFragment"
-            app:destination="@id/mainFragment" />
+            android:id="@+id/kdlsjkldfjfkldjglkdfj"
+            app:destination="@id/mdnflksjdfkldsjlkfjdslkdjsflk" />
         <action
-            android:id="@+id/action_deteilFragment_to_rightFragment"
-            app:destination="@id/rightFragment" />
+            android:id="@+id/djskljfgkldfjfdklvdfklofrdskopm"
+            app:destination="@id/slkdjfhkflxjghkfjghdlf" />
         <action
-            android:id="@+id/action_deteilFragment_to_centerFragment"
-            app:destination="@id/centerFragment" />
+            android:id="@+id/fdhgkjhgjkhjfsiorifsjdklfklds"
+            app:destination="@id/lkdsjlkfjklsgjdflkjgfdklgjdfkl" />
         <action
             android:id="@+id/action_deteilFragment_to_mainFragment2"
-            app:destination="@id/mainFragment" />
+            app:destination="@id/mdnflksjdfkldsjlkfjdslkdjsflk" />
     </fragment>
 </navigation>

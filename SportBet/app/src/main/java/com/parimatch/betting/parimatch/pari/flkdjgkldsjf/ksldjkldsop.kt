@@ -1,4 +1,4 @@
-package com.parimatch.betting.parimatch.match.flkdjgkldsjf
+package com.parimatch.betting.parimatch.pari.flkdjgkldsjf
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,9 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-import com.parimatch.betting.parimatch.match.betting.dskljfdklsjfklds.dkslsfjldsjklfop
-import com.parimatch.betting.parimatch.match.databinding.KsldjkldsopBinding
-import com.parimatch.betting.parimatch.match.lksdjglkjsklfjsklfdjlkds.*
+import com.parimatch.betting.parimatch.pari.betting.dskljfdklsjfklds.dkslsfjldsjklfop
+import com.parimatch.betting.parimatch.pari.databinding.KsldjkldsopBinding
+import com.parimatch.betting.parimatch.pari.lksdjglkjsklfjsklfdjlkds.*
 
 class ksldjkldsop : Fragment() {
     val hjdhdfjdjfjdsksdop by lazy { KsldjkldsopBinding.inflate(layoutInflater)}

@@ -1,44 +1,39 @@
 package com.fbets.fstavki
 
 import android.os.Bundle
-import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
-import androidx.navigation.findNavController
-import androidx.navigation.ui.AppBarConfiguration
-import androidx.navigation.ui.navigateUp
-import androidx.navigation.ui.setupActionBarWithNavController
 import com.fbets.fstavki.databinding.ActivityZugBinding
 
 class ZugActivity : AppCompatActivity() {
 
-    var goBack = {}
-    var clickLeft = {}
-    var clickCenter = {}
-    var clickRight = {}
+    var kldsjkldsjdm = {}
+    var dfjsdlkfjklfd = {}
+    var ksdjkdlsjd = {}
+    var dslkjkdsljds = {}
 
-   val binding by lazy {ActivityZugBinding.inflate(layoutInflater)}
+   val lkdfsjkgldf by lazy {ActivityZugBinding.inflate(layoutInflater)}
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
          setupNavigation()
-        setContentView(binding.root)
+        setContentView(lkdfsjkgldf.root)
     }
 
     private fun setupNavigation() {
-        binding.bottom .setOnNavigationItemSelectedListener { item ->
+        lkdfsjkgldf.klfdsjgklfdjklds .setOnNavigationItemSelectedListener { item ->
             when (item.itemId) {
-                R.id.leftC -> {
-                    clickLeft()
+                R.id.klfjdsklvjfdsljdsx -> {
+                    dfjsdlkfjklfd()
                     true
                 }
-                R.id.centerC -> {
-                    clickCenter()
+                R.id.lkdsjflkjsdfkljdslkf -> {
+                    ksdjkdlsjd()
                     true
                 }
-                R.id.rightC -> {
+                R.id.flkdhgdjfklfdsjfklsdjkl -> {
 
-                    clickRight()
+                    dslkjkdsljds()
                     true
                 }
                 else -> true
@@ -47,7 +42,7 @@ class ZugActivity : AppCompatActivity() {
     }
 
     override fun onBackPressed() {
-    goBack()
+    kldsjkldsjdm()
     }
 
 }
