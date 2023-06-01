@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/LoudingFragment">
+
+    <fragment
+        android:id="@+id/LoudingFragment"
+        android:name="com.apps.tz.rainbowgoldstation.black.LoudingFragment"
+        android:label="LoudingFragment"
+        tools:layout="@layout/louding_fragment" >
+        <action
+            android:id="@+id/action_louding_webview"
+            app:destination="@id/WebViewFragment" />
+        <action
+            android:id="@+id/action_LoudingFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/WebViewFragment"
+        android:name="com.apps.tz.rainbowgoldstation.black.WebViewFragment"
+        tools:layout="@layout/web_view_fragment"
+        android:label="WebViewFragment">
+        <action
+            android:id="@+id/action_WebViewFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.apps.tz.rainbowgoldstation.gamescreens.GameFragment"
+        android:label="fragment_game"
+        tools:layout="@layout/fragment_game" >
+        <action
+            android:id="@+id/action_gameFragment_to_gameFragmentTwo"
+            app:destination="@id/gameFragmentTwo" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameFragmentTwo"
+        android:name="com.apps.tz.rainbowgoldstation.gamescreens.GameFragmentTwo"
+        android:label="fragment_game_two"
+        tools:layout="@layout/fragment_game_two" >
+        <action
+            android:id="@+id/action_gameFragmentTwo_to_gameFragment"
+            app:destination="@id/gameFragment" />
+        <action
+            android:id="@+id/action_gameFragmentTwo_to_gameThreeFragment"
+            app:destination="@id/gameThreeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameThreeFragment"
+        android:name="com.apps.tz.rainbowgoldstation.gamescreens.GameThreeFragment"
+        android:label="fragment_game_three"
+        tools:layout="@layout/fragment_game_three" >
+        <action
+            android:id="@+id/action_gameThreeFragment_to_gameFragmentTwo"
+            app:destination="@id/gameFragmentTwo" />
+    </fragment>
+</navigation>
