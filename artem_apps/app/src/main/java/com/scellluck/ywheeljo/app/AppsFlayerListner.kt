@@ -4,6 +4,9 @@ import android.util.Log
 import com.appsflyer.AppsFlyerConversionListener
 
 import com.google.firebase.remoteconfig.FirebaseRemoteConfig
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
 import java.net.URLEncoder
 
 var finalUrl = ""
@@ -11,7 +14,7 @@ var goToWebView = {}
 var goToGame = {}
 
 
-object AppsFlayerListner : AppsFlyerConversionListener {
+class AppsFlayerListner(val i: () -> Unit) : AppsFlyerConversionListener {
 
     var adset :String? = null
     var af_adset :String? = null
@@ -46,6 +49,12 @@ object AppsFlayerListner : AppsFlyerConversionListener {
     var isOpenWebView = false
     var isOrganicFB = true
     var af_id = ""
+    var funAction = {}
+
+        init {
+            funAction = i
+        }
+
 
     override fun onConversionDataSuccess(data: MutableMap<String, Any>?) {
         Log.d("AppsFlayerData",data.toString())
@@ -77,6 +86,8 @@ object AppsFlayerListner : AppsFlyerConversionListener {
         af_sub2 = URLEncoder.encode((data?.get("af_sub2")).toString(), "utf-8")
         af_message = (data?.get("af_message")).toString()
         install_time = (data?.get("install_time")).toString()
+        af_statusMAin = af_status?:"unknown"
+        campaignMain = if(campaign!!.isNotBlank()){campaign?:"unknown"}else{"unknown"}
 
 Log.d("AF_adset", adset!! )
 Log.d("AF_af_adset", af_adset!! )
@@ -103,50 +114,13 @@ Log.d("AF_af_sub5", af_sub5!!)
 Log.d("AF_media_source", media_source!! )
 Log.d("AF_install_time", install_time!! )
 Log.d("AF_af_message", af_message!! )
-
-val fb = FirebaseRemoteConfig.getInstance()
-fb.fetchAndActivate()
-.addOnCompleteListener { status ->
-    if (status.isSuccessful) {
-        url = FirebaseRemoteConfig.getInstance().getString("url")
-        isOpenWebView =
-            FirebaseRemoteConfig.getInstance().getBoolean("webview")
-        isOrganicFB = FirebaseRemoteConfig.getInstance().getBoolean("organic")
-
-        if (url.isNotBlank()) {
-            finalUrl = setUrlConvertation(if (!(url.last().toString() == "?")) url + "?" else url)
-            Log.d("URLf", finalUrl)
-            if (true/*(ModelPhone.getPhoneModel()!!.contains("Google Pixel", ignoreCase = true)
-                        or ModelPhone.getPhoneModel()!!.contains("Pixel", ignoreCase = true)
-                        or ModelPhone.getPhoneModel()!!.contains("Google", ignoreCase = true))*/
-            ) {
-              //  Log.d("Model phone", ModelPhone.getPhoneModel()!!)
-               // Log.d("FBaaa", "$url $isOrganicFB $isOpenWebView")
-                  var isOrgabicAF = if(af_status == "Organic"){true}else{false}
-
-                finalUrl = setUrlConvertation(if (!(url.last().toString() == "?")) url + "?" else url)
-                Log.d("URLf", finalUrl)
-                if(isOrgabicAF == isOrganicFB){
-                       if(isOpenWebView) {
-                            goToWebView()
-                       }else{
-                           goToGame()
-                       }
-                   }else{
-                       goToGame()
-                   }
-                goToGame()
-            }
-
-        }else{
-            goToGame()
-        }
-    }else{
-        goToGame()
+    CoroutineScope(Dispatchers.Main).launch {
+        i()
     }
-}
+
     }
 override fun onConversionDataFail(error: String?) {
+    i()
 Log.e("appsFlayerData", "error onAttributionFailure :  $error")
 }
 override fun onAppOpenAttribution(data: MutableMap<String, String>?) {

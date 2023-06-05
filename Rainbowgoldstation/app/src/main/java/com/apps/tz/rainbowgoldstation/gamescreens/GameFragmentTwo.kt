@@ -11,23 +11,20 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import com.apps.tz.rainbowgoldstation.R
 import com.apps.tz.rainbowgoldstation.databinding.FragmentGameTwoBinding
-
-
-      var codePlace = ""
+import com.apps.tz.rainbowgoldstation.shared.SharedPrefs
 
 
 class GameFragmentTwo : Fragment() {
 
     val binding by lazy { FragmentGameTwoBinding.inflate(layoutInflater) }
 
-    val ramdomCode = listOf("J235","L901","N988","F509","M091","V289","Q971","X198","T601","W176","E612","H499",)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
 
-        codePlace = ramdomCode.random()
-        binding.TVpassword.text = codePlace
+
+        binding.TVpassword.text = SharedPrefs(requireContext()).getComputer()
         binding.CVback.setOnClickListener{
             val animator = ObjectAnimator.ofFloat(binding.CVback, View.SCALE_Y, 5F)
             animator.duration = 1000

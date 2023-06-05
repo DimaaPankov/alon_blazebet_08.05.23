@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/LoudingFragment">
+    app:startDestination="@id/gameFragment">
 
     <fragment
         android:id="@+id/LoudingFragment"
@@ -16,6 +16,9 @@
         <action
             android:id="@+id/action_LoudingFragment_to_gameFragment"
             app:destination="@id/gameFragment" />
+        <action
+            android:id="@+id/action_LoudingFragment_to_gameThreeFragment"
+            app:destination="@id/gameThreeFragment" />
     </fragment>
     <fragment
         android:id="@+id/WebViewFragment"

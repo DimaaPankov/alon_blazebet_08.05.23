@@ -21,7 +21,6 @@ data class CountDrum(var i:Int,var color:Int)
 var balans = 1000F
 
 class FirstFragment : Fragment() {
-    var countBonus = 0
     var histr = mutableListOf(false,false,false,
                                        false,false,false,
                                        false,false,false,

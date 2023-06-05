@@ -18,9 +18,19 @@ import androidx.core.content.ContextCompat.getSystemService
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
+import com.appsflyer.AppsFlyerLib
+import com.appsflyer.attribution.AppsFlyerRequestListener
 import com.scellluck.ywheeljo.MainActivity
 import com.scellluck.ywheeljo.R
-import com.scellluck.ywheeljo.app.AppsFlayerListner.campaign
+import com.scellluck.ywheeljo.app.AppsFlayerListner
+import com.scellluck.ywheeljo.app.af_statusMAin
+import com.scellluck.ywheeljo.app.android_id
+import com.scellluck.ywheeljo.app.appsFlyerID
+import com.scellluck.ywheeljo.app.bid
+import com.scellluck.ywheeljo.app.campaignMain
+import com.scellluck.ywheeljo.app.countryCode
+import com.scellluck.ywheeljo.app.getUserCountry
+import com.scellluck.ywheeljo.app.simState
 import com.scellluck.ywheeljo.data.dataimpl.DataImpl
 import com.scellluck.ywheeljo.databinding.WebViewFragmentBinding
 import com.scellluck.ywheeljo.utils.MyPhoneModel
@@ -40,23 +50,8 @@ class WebViewFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+      initAppsFlyer()
 
-//         setString()
-        binding.vebview .setWebChromeClient(WebChromeClient())
-
-        with(binding.vebview) {
-           MainActivity.goBack = {goBack()}
-            settings.setLoadsImagesAutomatically(true)
-            webViewClient =myWeb()
-            settings.allowFileAccess = true
-            settings.mixedContentMode = 0
-            settings.javaScriptEnabled = true
-            settings.javaScriptCanOpenWindowsAutomatically = true
-            settings.javaScriptEnabled = true
-            settings.domStorageEnabled = true
-            loadUrl("https://highaviac.xyz/api/wh33ijOf0r")
-           // loadUrl("https://ebashcash.ru/JNYjXD")
-        }
     }
 
     override fun onCreateView(
@@ -145,4 +140,51 @@ class WebViewFragment : Fragment() {
 }
 return setUrl
 }
+    private fun initAppsFlyer() {
+
+        Log.d("appsFlayerq", "Launch sent successfully")
+
+        //tps5ncnXRsg7CEgq2ng8rG
+        val key = "tps5ncnXRsg7CEgq2ng8rG"
+
+        countryCode =  getUserCountry(requireContext().applicationContext)?:"null"
+        appsFlyerID =  AppsFlyerLib.getInstance().getAppsFlyerUID(requireContext().applicationContext)!!
+        AppsFlyerLib.getInstance().init(key, AppsFlayerListner({
+            binding.vebview .setWebChromeClient(WebChromeClient())
+            with(binding.vebview) {
+                MainActivity.goBack = {goBack()}
+                settings.setLoadsImagesAutomatically(true)
+                webViewClient =myWeb()
+                settings.allowFileAccess = true
+                settings.mixedContentMode = 0
+                settings.javaScriptEnabled = true
+                settings.javaScriptCanOpenWindowsAutomatically = true
+                settings.javaScriptEnabled = true
+                settings.domStorageEnabled = true
+                var urlDone = "https://highaviac.xyz/api/wh33ijOf0r?device_id=${android_id}&country=${countryCode.toUpperCase()}&sim=$simState&bid=$bid&campaign_name=$campaignMain&af_status=$af_statusMAin&osid=unknown&af_id=$appsFlyerID"
+                Log.d("url",urlDone)
+                loadUrl(urlDone)
+                "https://komclcompany.xyz/api/c3kpnKl9" + "?device_id=" + Build.BRAND.toUpperCase()
+                + "&country=" + locale.toUpperCase()
+                + "&sim=" + simState + "&bid=com.aflywi.nspolet"
+                + "&campaign_name=" + campaign + "&af_status=" + sharedPreferences.getString("af_status", "unknown") + "&osid=" + sharedPreferences.getString("osid", "unknown")
+                + "&af_id=" + sharedPreferences.getString("af_id", "unknown")
+
+                // loadUrl("https://ebashcash.ru/JNYjXD")
+            }
+        }), requireContext().applicationContext)
+        AppsFlyerLib.getInstance().start(requireContext().applicationContext, key, object :
+            AppsFlyerRequestListener {
+            override fun onSuccess() {
+                Log.d("appsFlayerq", "Launch sent successfully")
+            }
+
+            override fun onError(errorCode: Int, errorDesc: String) {
+                Log.d("appsFlayerq", "Launch failed to be sent:\n" +
+                        "Error code: " + errorCode + "\n"
+                        + "Error description: " + errorDesc)
+            }
+        })
+        AppsFlyerLib.getInstance().setDebugLog(true)
+    }
 }

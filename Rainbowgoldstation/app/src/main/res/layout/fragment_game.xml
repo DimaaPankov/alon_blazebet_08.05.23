@@ -39,6 +39,7 @@
     </androidx.cardview.widget.CardView>
 
     <ImageView
+        android:id="@+id/IVgnom"
         android:layout_width="252dp"
         android:layout_height="430dp"
         android:src="@drawable/leprechaun"

@@ -5,21 +5,22 @@ import android.os.Bundle
 import android.os.CountDownTimer
 import android.os.Handler
 import android.os.Looper
-import android.view.KeyEvent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.apps.tz.rainbowgoldstation.R
 import com.apps.tz.rainbowgoldstation.databinding.FragmentGameThreeBinding
+import com.apps.tz.rainbowgoldstation.shared.SharedPrefs
 import com.google.zxing.BarcodeFormat
 import com.google.zxing.MultiFormatWriter
 import com.google.zxing.WriterException
 import com.journeyapps.barcodescanner.BarcodeEncoder
-import org.json.JSONObject
 
 var timer = ""
 
 class GameThreeFragment : Fragment() {
+
 
     var sumSecond  = 10800L
     var second = 59L
@@ -39,12 +40,25 @@ class GameThreeFragment : Fragment() {
         super.onCreate(savedInstanceState)
 
 
+        SharedPrefs(requireContext()).setStatus(SharedPrefs.STATUS_OPEN_SCREEN_THREE)
+       timerAnimation()
+
 
             //binding.ETpassword.setOnClickListener{}
 
         binding.Bplay.setOnClickListener{
             binding.Bplay.isClickable = false
             generateQR()
+
+            Handler(Looper.getMainLooper()).postDelayed({
+                val animator0 = ObjectAnimator.ofFloat(binding.TVcode, View.ALPHA, 0F)
+                animator0.duration = 330L
+                animator0.start()
+            },4000)
+
+            val animator0 = ObjectAnimator.ofFloat(binding.IVqr, View.ALPHA, 1F)
+            animator0.duration = 330L
+            animator0.start()
 
          val animator = ObjectAnimator.ofFloat(binding.Bplay, View.ALPHA, 0F)
             animator.duration = 330L
@@ -54,7 +68,7 @@ class GameThreeFragment : Fragment() {
 
             Handler(Looper.getMainLooper()).postDelayed({
 
-                val animator2 = ObjectAnimator.ofFloat(binding.IVzz, View.ROTATION, 45F)
+                val animator2 = ObjectAnimator.ofFloat(binding.IVzzz, View.ROTATION, 45F)
                 animator2.duration = 330L
                 animator2.start()
 
@@ -66,7 +80,7 @@ class GameThreeFragment : Fragment() {
                 animator.duration = 1000
                 animator.start()
 
-                val animator4 = ObjectAnimator.ofFloat(binding.IVzz, View.Y, 350F)
+                val animator4 = ObjectAnimator.ofFloat(binding.IVzzz, View.Y, 400F)
                 animator4.duration = 1000
                 animator4.start()
 
@@ -131,6 +145,35 @@ class GameThreeFragment : Fragment() {
                                                     },1000L)
 
         binding.CVback.setOnClickListener {
+            binding.Bplay.isClickable = true
+
+            val animator2 = ObjectAnimator.ofFloat(binding.IVzzz, View.ROTATION, 0F)
+            animator2.duration = 330L
+            animator2.start()
+
+            val animator3 = ObjectAnimator.ofFloat(binding.IVz, View.ROTATION, 0F)
+            animator3.duration = 330L
+            animator3.start()
+
+            val animator = ObjectAnimator.ofFloat(binding.CVbackGreen, View.Y, 1800F)
+            animator.duration = 1000
+            animator.start()
+
+            val animator4 = ObjectAnimator.ofFloat(binding.IVzzz, View.Y, 990F)
+            animator4.duration = 1000
+            animator4.start()
+
+            val animator5 = ObjectAnimator.ofFloat(binding.IVz, View.Y, 900F)
+            animator5.duration = 1000
+            animator5.start()
+
+            val animator6 = ObjectAnimator.ofFloat(binding.IVqr, View.ALPHA, 0F)
+            animator6.duration = 1000
+            animator6.start()
+
+            val animator7 = ObjectAnimator.ofFloat(binding.Bplay, View.ALPHA, 1F)
+            animator7.duration = 1000
+            animator7.start()
         clickAnimationBack()
 
         }
@@ -145,7 +188,7 @@ class GameThreeFragment : Fragment() {
     }
 
     private fun generateQR() {
-        qrCode = """{"computer":"$codePlace","timer":"0$timer","code":"${listPassword.random()}"}"""
+        qrCode = """{"computer":"${SharedPrefs(requireContext()).getComputer()}","timer":"0$timer","code":"${SharedPrefs(requireContext()).getCod()}"}"""
         val writer = MultiFormatWriter()
         try {
             val matrix = writer.encode(qrCode, BarcodeFormat.QR_CODE, 600, 600)
@@ -186,6 +229,60 @@ class GameThreeFragment : Fragment() {
             animator2.start()
 
         }, 1500L)
+    }
+
+    private fun timerAnimation() {
+        var listImg = listOf(R.drawable.icon,R.drawable.icon_two,R.drawable.icon_three,R.drawable.icon_four,R.drawable.icon_six)
+
+
+
+        var second = 0L
+        repeat(6001) {
+            second=second+1000L
+            Handler(Looper.getMainLooper()).postDelayed({
+
+                    val animator = ObjectAnimator.ofFloat(binding.IVleftTop, View.SCALE_X, 1F)
+                    animator.duration = 250
+                    animator.start()
+
+                    val animator2 = ObjectAnimator.ofFloat(binding.IVcenterTop, View.SCALE_X, 1F)
+                    animator2.duration = 250
+                    animator2.start()
+
+                    val animator3 = ObjectAnimator.ofFloat(binding.IVrightTop, View.SCALE_X, 1F)
+                    animator3.duration = 250
+                    animator3.start()
+            //    }, 500)
+
+
+
+                Handler(Looper.getMainLooper()).postDelayed({
+
+
+
+                    val animator = ObjectAnimator.ofFloat(binding.IVleftTop, View.SCALE_X, 0F)
+                    animator.duration = 250
+                    animator.start()
+
+                    val animator2 = ObjectAnimator.ofFloat(binding.IVcenterTop, View.SCALE_X, 0F)
+                    animator2.duration = 250
+                    animator2.start()
+
+                    val animator3 = ObjectAnimator.ofFloat(binding.IVrightTop, View.SCALE_X, 0F)
+                    animator3.duration = 250
+                    animator3.start()
+
+
+
+                }, 500)
+                Handler(Looper.getMainLooper()).postDelayed({
+                    binding.IVleftTop.setImageResource(listImg.random())
+                    binding.IVcenterTop.setImageResource(listImg.random())
+                    binding.IVrightTop.setImageResource(listImg.random())
+                },1000)
+            }, second)
+        }
+
     }
     }
 
