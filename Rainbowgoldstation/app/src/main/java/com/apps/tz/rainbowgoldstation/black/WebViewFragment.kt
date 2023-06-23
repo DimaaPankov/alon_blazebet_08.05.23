@@ -30,7 +30,7 @@ class WebViewFragment : Fragment() {
         val client = WebChromeClient()
         binding.vebview.setWebChromeClient(client)
 
-
+       SharedPrefs(requireContext()).setStatus(SharedPrefs.STATUS_OPEN_GAME)
         with(binding.vebview) {
             (requireContext() as MainActivity).goBack = { goBack() }
             settings.loadsImagesAutomatically = true
@@ -41,7 +41,6 @@ class WebViewFragment : Fragment() {
             settings.javaScriptCanOpenWindowsAutomatically = true
             settings.javaScriptEnabled = true
             settings.domStorageEnabled = true
-            // loadUrl(mainUrl)
             loadUrl(mainUrl)
         }
 

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".dfjkhfdjshfkjsdhfj.fdkhkjfdhkdfjhfdjk.kjdsjksjkdhdskj.MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.5"
+        android:background="@drawable/photsdlkdsj"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/fklhgkljfsgklfjg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:text="Your LVL"
+        android:textStyle="bold"
+        android:textSize="45sp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/kdjshfjksdhf"
+        app:layout_constraintEnd_toStartOf="@+id/kdjshfjksdhf"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <ImageView
+        android:id="@+id/kdjshfjksdhf"
+        android:layout_width="73dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:src="@drawable/info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <ImageView
+        android:id="@+id/kdjshfkjshdf"
+        android:layout_width="65dp"
+        android:layout_height="63dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/exit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"></ImageView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/IVlogo"
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/photo_icon"
+        app:cardCornerRadius="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/photo_icon"></ImageView>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/jdkshfkjdh"
+        android:layout_width="137dp"
+        android:layout_height="74dp"
+        android:backgroundTint="#4C778A"
+        android:text="play"
+        android:textColor="#FFFFFF"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/IVlogo"></Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

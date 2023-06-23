@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "358041077226",
+    "project_id": "test-dd239",
+    "storage_bucket": "test-dd239.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358041077226:android:b4165fb32509799d715e93",
+        "android_client_info": {
+          "package_name": "com.rustamtest.karaokefrogtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358041077226-homfi7p7n2k7ekhbc62nttmmmthqobgf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsoCaE6slvcJ6XhunfuAREYo2dUU9I2Qk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "358041077226-homfi7p7n2k7ekhbc62nttmmmthqobgf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

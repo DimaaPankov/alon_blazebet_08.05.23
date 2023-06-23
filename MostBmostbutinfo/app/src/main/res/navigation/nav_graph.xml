@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/dsjkldjssss"
-        android:name="com.mostbet.promosti.mostbet.dsljjdslhdsjkd"
+        android:name="com.mostbet.mooostbet.mostbet.dsljjdslhdsjkd"
         android:label=""
         tools:layout="@layout/ldsmjhldsjsss">
 
@@ -19,7 +19,7 @@
 
     <fragment
         android:id="@+id/dsljdslsss"
-        android:name="com.mostbet.promosti.mostbet.ldsjlkjdssss"
+        android:name="com.mostbet.mooostbet.mostbet.ldsjlkjdssss"
         android:label="kljdsdsljd"
         tools:layout="@layout/dslhdsjkdshsss" >
         <action
@@ -31,7 +31,7 @@
     </fragment>
     <fragment
         android:id="@+id/dshdkjshsdssss"
-        android:name="com.mostbet.promosti.mostbet.sdjkjhdskjdhsssss"
+        android:name="com.mostbet.mooostbet.mostbet.sdjkjhdskjdhsssss"
         android:label="hakjdshdsjkssss"
         tools:layout="@layout/dsjsdkljdsssss" >
         <action
@@ -40,7 +40,7 @@
     </fragment>
     <fragment
         android:id="@+id/jdsmhdkjshdssss"
-        android:name="com.mostbet.promosti.mostbet.dshdskjhdssss"
+        android:name="com.mostbet.mooostbet.mostbet.dshdskjhdssss"
         android:label="jkdsjhjkdshssss"
         tools:layout="@layout/dshkjkdshds">
         <action

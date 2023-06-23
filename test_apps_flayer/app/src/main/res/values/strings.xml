@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Karaoke Frog</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="facebook_client_token">26fcec7c03b178d42666b2617bdca693</string>
+    <string name="facebook_app_id">640889524659291</string>
+
+
+</resources>
